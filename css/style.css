@@ -1,0 +1,14 @@
+header ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 3rem;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+main h1 {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
