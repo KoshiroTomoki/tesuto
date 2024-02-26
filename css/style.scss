@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+@use "destyle";
+@use "header";
+@use "drawer";
+@use "top";
+@use "charge";
+@use "LPmanga";
+@use "footer";
+
+html{
+    scroll-behavior: smooth;
+
+    @media (width <=768px) {
+    }
+}
+
+body{
+    line-height: 1.7rem;
+    background-color: #fff6ed;
+}
+
+main{
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}

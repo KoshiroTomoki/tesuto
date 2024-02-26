@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .headerImg {
+  max-width: 300px;
+}
+header .headerImg img {
+  width: 100%;
+}
+header .headerNav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .headerNav ul li {
+  margin-left: 1rem;
+}
+header .headerNav ul li a:hover {
+  color: orange;
+}/*# sourceMappingURL=header.css.map */

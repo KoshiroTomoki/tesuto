@@ -1,0 +1,47 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+    .headerBox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        background-color: rgb(255, 192, 75);
+
+        .headerImg {
+            max-width: 300px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .headerNav {
+
+            @media (width <=768px) {
+                display: none;
+            }
+
+            ul {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                li {
+                    margin-left: 1rem;
+
+                    a:hover {
+                        color: rgb(255, 255, 255);
+                        transition: 0.3s;
+                    }
+                }
+
+                li:last-of-type{
+                    margin-right: 1rem;
+                }
+            }
+        }
+    }
+}
