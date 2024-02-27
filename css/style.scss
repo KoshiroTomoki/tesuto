@@ -100,3 +100,17 @@ body {
         opacity: 0.8;
     }
 }
+
+.fuwa05 {
+    animation: fuwafuwa05 1s ease-in-out infinite alternate;
+  }
+
+@keyframes fuwafuwa05 {
+    from {
+        transform:translateY(0);
+    }
+
+    to {
+        transform: translateY(5px);
+    }
+}

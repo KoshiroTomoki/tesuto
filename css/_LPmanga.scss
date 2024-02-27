@@ -1,0 +1,41 @@
+.LPmanga01 {
+
+    .hukidashiBox {
+        padding-top: 5rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .hukidashi01{
+            position: relative;
+            width: 220px;
+
+            p {
+                position: absolute;
+                top: 60%;
+                left: 55%;
+                transform: translate(-50%,-50%);
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .hukidashi02{
+            position: relative;
+            width: 260px;
+
+            p {
+                position: absolute;
+                top: 48%;
+                left: 55%;
+                transform: translate(-50%,-50%);
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
