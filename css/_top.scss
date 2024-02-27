@@ -14,12 +14,21 @@
         justify-content: center;
         align-items: center;
 
+        color: orange;
+        position: relative;
+
         .topMainTitle {
             font-size: 3rem;
 
             @media (width <=500px) {
                 font-size: 2rem;
             }
+        }
+
+        .topSubTitle {
+            position: absolute;
+            top: -150%;
+            left: 0;
         }
     }
 
@@ -76,7 +85,6 @@
         .topTopSquares {
             .squares01 {
                 background-color: rgb(236, 163, 52);
-                opacity: 0.8;
 
                 position: absolute;
                 top: 30%;
@@ -94,7 +102,6 @@
 
             .squares02 {
                 background-color: rgb(255, 217, 159);
-                opacity: 0.6;
 
                 position: absolute;
                 top: 25%;
@@ -111,7 +118,6 @@
 
             .squares03 {
                 background-color: rgb(255, 217, 159);
-                opacity: 0.8;
 
                 position: absolute;
                 top: 80%;
@@ -128,7 +134,6 @@
 
             .squares04 {
                 background-color: rgb(255, 199, 114);
-                opacity: 0.8;
 
                 position: absolute;
                 top: 85%;
@@ -145,7 +150,6 @@
 
             .squares05 {
                 background-color: rgb(236, 163, 52);
-                opacity: 0.8;
 
                 position: absolute;
                 top: 77%;
@@ -162,7 +166,6 @@
 
             .squares06 {
                 background-color: rgb(236, 163, 52);
-                opacity: 0.8;
 
                 position: absolute;
                 top: 68%;
@@ -174,7 +177,6 @@
 
             .squares07 {
                 background-color: rgb(255, 217, 159);
-                opacity: 0.8;
 
                 position: absolute;
                 top: 70%;
@@ -191,7 +193,6 @@
 
             .squares08 {
                 background-color: rgb(236, 163, 52);
-                opacity: 0.8;
 
                 position: absolute;
                 top: 80%;
@@ -213,7 +214,6 @@
 
             .squares09 {
                 background-color: rgb(236, 163, 52);
-                opacity: 0.8;
 
                 position: absolute;
                 top: 15%;
@@ -230,7 +230,6 @@
 
             .squares10 {
                 background-color: rgb(255, 217, 159);
-                opacity: 0.8;
 
                 position: absolute;
                 top: 30%;
@@ -247,7 +246,6 @@
 
             .squares11 {
                 background-color: rgb(236, 163, 52);
-                opacity: 0.8;
 
                 position: absolute;
                 top: 15%;
@@ -265,8 +263,6 @@
 
             .squares12 {
                 background-color: rgb(255, 217, 159);
-                opacity: 0.8;
-                opacity: 0.8;
 
                 position: absolute;
                 top: 25%;
@@ -301,7 +297,7 @@
 
         .squares01 {
             background-color: rgb(236, 163, 52);
-            opacity: 0.4;
+            opacity: 0.6;
 
             position: absolute;
             top: 10%;
@@ -314,7 +310,7 @@
 
         .squares02 {
             background-color: rgb(236, 163, 52);
-            opacity: 0.8;
+            opacity: 0.6;
 
             position: absolute;
             top: 30%;
@@ -327,7 +323,7 @@
 
         .squares03 {
             background-color: rgb(236, 163, 52);
-            opacity: 0.4;
+            opacity: 0.6;
 
             position: absolute;
             top: 45%;
@@ -353,11 +349,11 @@
 
         .squares05 {
             background-color: rgb(236, 163, 52);
-            opacity: 0.4;
+            opacity: 0.6;
 
             position: absolute;
-            top: 10%;
-            right: 5%;
+            top: 75%;
+            left: 5%;
             z-index: -10;
 
             width: 50px;
@@ -369,8 +365,8 @@
             opacity: 0.6;
 
             position: absolute;
-            top: 30%;
-            right: 3%;
+            top: 90%;
+            left: 3%;
             z-index: -10;
 
             width: 50px;
@@ -379,10 +375,10 @@
 
         .squares07 {
             background-color: rgb(236, 163, 52);
-            opacity: 0.4;
+            opacity: 0.6;
 
             position: absolute;
-            top: 45%;
+            top: 10%;
             right: 5%;
             z-index: -10;
 
@@ -392,15 +388,63 @@
 
         .squares08 {
             background-color: rgb(236, 163, 52);
-            opacity: 0.8;
+            opacity: 0.6;
 
             position: absolute;
-            top: 60%;
+            top: 30%;
             right: 2%;
             z-index: -10;
 
             width: 80px;
             height: 80px;
+        }
+        .squares09 {
+            background-color: rgb(236, 163, 52);
+            opacity: 0.6;
+
+            position: absolute;
+            top: 45%;
+            right: 3%;
+            z-index: -10;
+
+            width: 50px;
+            height: 70px;
+        }
+        .squares10 {
+            background-color: rgb(236, 163, 52);
+            opacity: 0.6;
+
+            position: absolute;
+            top: 60%;
+            right: 4%;
+            z-index: -10;
+
+            width: 90px;
+            height: 60px;
+        }
+        .squares11 {
+            background-color: rgb(236, 163, 52);
+            opacity: 0.6;
+
+            position: absolute;
+            top:75%;
+            right: 1%;
+            z-index: -10;
+
+            width: 50px;
+            height: 50px;
+        }
+        .squares12 {
+            background-color: rgb(236, 163, 52);
+            opacity: 0.6;
+
+            position: absolute;
+            top: 90%;
+            right: 5%;
+            z-index: -10;
+
+            width: 60px;
+            height: 70px;
         }
     }
 
@@ -437,7 +481,7 @@
                 justify-content: center;
                 align-items: center;
 
-                background-color: #fffdb7;
+                background-color: #fffb85;
             }
         }
 
@@ -451,7 +495,7 @@
                 justify-content: center;
                 align-items: center;
 
-                background-color: rgb(255, 217, 159);
+                background-color: rgb(255, 207, 136);
             }
         }
     }
@@ -469,7 +513,6 @@
             font-size: 2rem;
             margin: 1rem 0 3rem;
             line-height: 1.7;
-
             text-align: center;
 
             @media (width <=768px) {
@@ -501,32 +544,30 @@
                     width: 100%;
                 }
             }
+        }
 
-            .linkImg {
-                width: 300px;
-                margin: 0 1rem;
+        .linkImg {
+            position: relative;
+            width: 300px;
+            margin: 3rem 1rem 0;
 
-                img {
-                    width: 100%;
-                }
+            img {
+                width: 100%;
             }
+        }
 
-            .click {
-                position: absolute;
-                top: -10%;
-                left: 35%;
+        .click {
+            position: absolute;
+            top: -40%;
+            left: 0%;
+            font-weight: bold;
+            color: orange;
 
-                transform: rotate(345deg);
+            transform: rotate(345deg);
 
-                @media (width <=768px) {
-                    left: 30%
-                }
+            @media (width <=768px) {}
 
-                @media (width <=500px) {
-                    top: -30%;
-                    left: 25%
-                }
-            }
+            @media (width <=500px) {}
         }
     }
 }
@@ -534,40 +575,200 @@
 #index03 {
     max-width: 1240px;
     margin: 0 auto;
+    position: relative;
 
-    .SNSframeBox01 {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 5rem;
-        max-width: 1000px;
-        margin: 0 auto;
+    .topSNSSquares {
 
-        img {
-            width: 100%;
+        .squares01 {
+            background-color: rgb(236, 163, 52);
+            opacity: 0.6;
 
-            @media (width <=500px) {}
+            position: absolute;
+            top: 10%;
+            left: 5%;
+            z-index: -10;
+
+            width: 100px;
+            height: 100px;
+        }
+
+        .squares02 {
+            background-color: rgb(236, 163, 52);
+            opacity: 0.6;
+
+            position: absolute;
+            top: 30%;
+            left: 0%;
+            z-index: -10;
+
+            width: 70px;
+            height: 50px;
+        }
+
+        .squares03 {
+            background-color: rgb(236, 163, 52);
+            opacity: 0.6;
+
+            position: absolute;
+            top: 45%;
+            left: 4%;
+            z-index: -10;
+
+            width: 80px;
+            height: 80px;
+        }
+
+        .squares04 {
+            background-color: rgb(236, 163, 52);
+            opacity: 0.6;
+
+            position: absolute;
+            top: 60%;
+            left: 2%;
+            z-index: -10;
+
+            width: 50px;
+            height: 80px;
+        }
+
+        .squares05 {
+            background-color: rgb(236, 163, 52);
+            opacity: 0.6;
+
+            position: absolute;
+            top: 75%;
+            left: 5%;
+            z-index: -10;
+
+            width: 50px;
+            height: 80px;
+        }
+
+        .squares06 {
+            background-color: rgb(236, 163, 52);
+            opacity: 0.6;
+
+            position: absolute;
+            top: 90%;
+            left: 3%;
+            z-index: -10;
+
+            width: 50px;
+            height: 50px;
+        }
+
+        .squares07 {
+            background-color: rgb(236, 163, 52);
+            opacity: 0.6;
+
+            position: absolute;
+            top: 10%;
+            right: 5%;
+            z-index: -10;
+
+            width: 100px;
+            height: 80px;
+        }
+
+        .squares08 {
+            background-color: rgb(236, 163, 52);
+            opacity: 0.6;
+
+            position: absolute;
+            top: 35%;
+            right: 2%;
+            z-index: -10;
+
+            width: 80px;
+            height: 80px;
+        }
+
+        .squares09 {
+            background-color: rgb(236, 163, 52);
+            opacity: 0.6;
+
+            position: absolute;
+            top: 50%;
+            right: 2%;
+            z-index: -10;
+
+            width: 90px;
+            height: 50px;
+        }
+
+        .squares10 {
+            background-color: rgb(236, 163, 52);
+            opacity: 0.6;
+
+            position: absolute;
+            top: 65%;
+            right: 5%;
+            z-index: -10;
+
+            width: 50px;
+            height: 80px;
+        }
+
+        .squares11 {
+            background-color: rgb(236, 163, 52);
+            opacity: 0.6;
+
+            position: absolute;
+            top: 80%;
+            right: 3%;
+            z-index: -10;
+
+            width: 50px;
+            height: 50px;
+        }
+
+        .squares12 {
+            background-color: rgb(236, 163, 52);
+            opacity: 0.6;
+
+            position: absolute;
+            top: 90%;
+            right: 5%;
+            z-index: -10;
+
+            width: 100px;
+            height: 80px;
         }
     }
 
-    .SNSframeBox02 {
-        display: flex;
-        justify-content: space-between;
-        max-width: 1000px;
-        margin: 0 auto;
+    // .SNSframeBox01 {
+    //     display: flex;
+    //     justify-content: space-between;
+    //     padding-top: 5rem;
+    //     max-width: 1000px;
+    //     margin: 0 auto;
 
-        img {
-            width: 100%;
+    //     img {
+    //         width: 100%;
 
-            @media (width <=500px) {}
-        }
-    }
+    //         @media (width <=500px) {}
+    //     }
+    // }
+
+    // .SNSframeBox02 {
+    //     display: flex;
+    //     justify-content: space-between;
+    //     max-width: 1000px;
+    //     margin: 0 auto;
+
+    //     img {
+    //         width: 100%;
+
+    //         @media (width <=500px) {}
+    //     }
+    // }
 
     .SNSBox {
         text-align: center;
         font-size: 2rem;
 
-        .SNSBoxTitle{
-            margin: 3rem 0;
+        .SNSBoxTitle {
+            margin: 5rem 0 0;
         }
 
         .SNS {
@@ -575,24 +776,30 @@
             justify-content: space-around;
             align-items: center;
 
-            
+
             @media (width <=768px) {
                 flex-direction: column;
             }
         }
 
-            .SNSBox01 {
-                width: 300px;
-                height: 400px;
-                border: 1px solid black;
-                margin-top: 3rem;
+        .SNSBox01 {
+            width: 300px;
+            height: 400px;
+            border: 1px solid black;
+            margin-top: 3rem;
+            background-color: white;
+
+            @media (width <=768px) {
+                width: 200px;
+                height: 300px;
             }
         }
-
-        @media (width <=500px) {
-            font-size: 1.5rem;
-        }
     }
+
+    @media (width <=500px) {
+        font-size: 1.5rem;
+    }
+}
 
 #index04 {
 
@@ -602,7 +809,6 @@
 
         max-width: 1240px;
         margin: 0 auto;
-        padding-top: 5rem;
 
         @media (width <=768px) {
             justify-content: center;
@@ -612,7 +818,7 @@
 
     .infoTitle {
         max-width: 1240px;
-        margin: 3rem auto;
+        margin: 5rem auto 3rem;
         text-align: center;
         font-size: 2rem;
     }

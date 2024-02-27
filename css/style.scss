@@ -8,14 +8,95 @@
 @use "LPmanga";
 @use "footer";
 
-html{
+html {
     scroll-behavior: smooth;
 
-    @media (width <=768px) {
+    @media (width <=768px) {}
+}
+
+body {
+    line-height: 1.7rem;
+    background-color: #fff6ed;
+}
+
+
+
+.fade-in {
+    animation: fade-in 1s ease-in-out;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 0.8;
+        transform: translateY(0);
     }
 }
 
-body{
-    line-height: 1.7rem;
-    background-color: #fff6ed;
+.fuwa01 {
+    animation: fuwafuwa01 3s ease-in-out infinite alternate;
+  }
+
+@keyframes fuwafuwa01 {
+    from {
+        transform:translateY(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(10px);
+        opacity: 0.8;
+    }
+}
+
+.fuwa02 {
+    animation: fuwafuwa02 5s ease-in-out infinite alternate;
+  }
+
+@keyframes fuwafuwa02 {
+    from {
+        transform:translateY(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(5px);
+        opacity: 0.8;
+    }
+}
+
+.fuwa03 {
+    animation: fuwafuwa03 3.5s ease-in-out infinite alternate;
+  }
+
+@keyframes fuwafuwa03 {
+    from {
+        transform:translateY(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(10px);
+        opacity: 0.8;
+    }
+}
+
+.fuwa04 {
+    animation: fuwafuwa04 4s ease-in-out infinite alternate;
+  }
+
+@keyframes fuwafuwa04 {
+    from {
+        transform:translateY(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(5px);
+        opacity: 0.8;
+    }
 }
