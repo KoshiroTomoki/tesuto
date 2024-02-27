@@ -3,10 +3,10 @@
     .hukidashiBox {
         padding-top: 5rem;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
 
-        .hukidashi01{
+        .hukidashi01 {
             position: relative;
             width: 220px;
 
@@ -14,7 +14,9 @@
                 position: absolute;
                 top: 60%;
                 left: 55%;
-                transform: translate(-50%,-50%);
+                transform: translate(-50%, -50%);
+
+                width: 6rem;
             }
 
             img {
@@ -22,7 +24,7 @@
             }
         }
 
-        .hukidashi02{
+        .hukidashi02 {
             position: relative;
             width: 260px;
 
@@ -30,11 +32,151 @@
                 position: absolute;
                 top: 48%;
                 left: 55%;
-                transform: translate(-50%,-50%);
+                transform: translate(-50%, -50%);
+
+                width: 8rem;
             }
 
             img {
                 width: 100%;
+            }
+        }
+    }
+
+    .LPmanga01TitleBox {
+        overflow-x: hidden;
+        max-width: 1240px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+
+        position: relative;
+
+        .LPmangaP {
+            background-color: white;
+            border-radius: 50%;
+            padding: 2rem;
+            margin: 0 auto;
+
+            font-size: 1.5rem;
+
+            color: orange;
+        }
+
+        .LPmangaTitleImgBox {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1240px;
+            margin: 0 auto;
+
+            position: relative;
+
+            .titleImgs {
+                width: 50%;
+
+                .titleImgs01 {
+                    position: absolute;
+                    top: -10%;
+                    left: 10%;
+                }
+
+                .titleImgs02 {
+                    position: absolute;
+                    top: 10%;
+                    left: 45%;
+                }
+
+                .titleImgs03 {
+                    position: absolute;
+                    top: 20%;
+                    left: -10%;
+                }
+
+                .titleImgs04 {
+                    position: absolute;
+                    top: 38%;
+                    left: 30%;
+                }
+
+                .titleImgs05 {
+                    position: absolute;
+                    top: 50%;
+                    left: 5%;
+                }
+            }
+
+            .titleImgPeople {
+                width: 50%;
+            }
+        }
+    }
+}
+
+.LPmanga02 {
+    height: 10vh;
+}
+
+.LPmanga03 {
+    margin: 5rem 0;
+
+    .LPmanga03BigText {
+        position: relative;
+        width: 20.5rem;
+
+        margin: 0 auto;
+
+        .BigText01 {
+
+            padding: 2rem;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            color: orange;
+
+            background-color: white;
+        }
+
+        .BigTextImg01 {
+            position: absolute;
+            top: -35%;
+            z-index: 10;
+        }
+
+        .BigTextImg02 {
+            position: absolute;
+            top: -35%;
+            right: 0;
+        }
+    }
+
+    .LPmanga03Box {
+        display: flex;
+        justify-content: center;
+
+
+        .LPmanga03Box02 {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            .LPmangaP01 {
+                margin-top: 3rem;
+                color: orange;
+            }
+
+            .LPmangaImgBox {
+                position: relative;
+
+                .ImgBox01 {
+                    position: absolute;
+                    top: -40%;
+                    right: 0;
+                }
+            }
+
+            .LPmangaP02 {
+                font-size: 1.5rem;
+                font-weight: bold;
             }
         }
     }

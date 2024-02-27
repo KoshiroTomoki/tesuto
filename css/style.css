@@ -1280,7 +1280,7 @@ header .headerBox .headerNav ul li:last-of-type {
 .LPmanga01 .hukidashiBox {
   padding-top: 5rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 .LPmanga01 .hukidashiBox .hukidashi01 {
@@ -1292,6 +1292,7 @@ header .headerBox .headerNav ul li:last-of-type {
   top: 60%;
   left: 55%;
   transform: translate(-50%, -50%);
+  width: 6rem;
 }
 .LPmanga01 .hukidashiBox .hukidashi01 img {
   width: 100%;
@@ -1305,9 +1306,121 @@ header .headerBox .headerNav ul li:last-of-type {
   top: 48%;
   left: 55%;
   transform: translate(-50%, -50%);
+  width: 8rem;
 }
 .LPmanga01 .hukidashiBox .hukidashi02 img {
   width: 100%;
+}
+.LPmanga01 .LPmanga01TitleBox {
+  overflow-x: hidden;
+  max-width: 1240px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+}
+.LPmanga01 .LPmanga01TitleBox .LPmangaP {
+  background-color: white;
+  border-radius: 50%;
+  padding: 2rem;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  color: orange;
+}
+.LPmanga01 .LPmanga01TitleBox .LPmangaTitleImgBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  margin: 0 auto;
+  position: relative;
+}
+.LPmanga01 .LPmanga01TitleBox .LPmangaTitleImgBox .titleImgs {
+  width: 50%;
+}
+.LPmanga01 .LPmanga01TitleBox .LPmangaTitleImgBox .titleImgs .titleImgs01 {
+  position: absolute;
+  top: -10%;
+  left: 10%;
+}
+.LPmanga01 .LPmanga01TitleBox .LPmangaTitleImgBox .titleImgs .titleImgs02 {
+  position: absolute;
+  top: 10%;
+  left: 45%;
+}
+.LPmanga01 .LPmanga01TitleBox .LPmangaTitleImgBox .titleImgs .titleImgs03 {
+  position: absolute;
+  top: 20%;
+  left: -10%;
+}
+.LPmanga01 .LPmanga01TitleBox .LPmangaTitleImgBox .titleImgs .titleImgs04 {
+  position: absolute;
+  top: 38%;
+  left: 30%;
+}
+.LPmanga01 .LPmanga01TitleBox .LPmangaTitleImgBox .titleImgs .titleImgs05 {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+.LPmanga01 .LPmanga01TitleBox .LPmangaTitleImgBox .titleImgPeople {
+  width: 50%;
+}
+
+.LPmanga02 {
+  height: 10vh;
+}
+
+.LPmanga03 {
+  margin: 5rem 0;
+}
+.LPmanga03 .LPmanga03BigText {
+  position: relative;
+  width: 20.5rem;
+  margin: 0 auto;
+}
+.LPmanga03 .LPmanga03BigText .BigText01 {
+  padding: 2rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: orange;
+  background-color: white;
+}
+.LPmanga03 .LPmanga03BigText .BigTextImg01 {
+  position: absolute;
+  top: -35%;
+  z-index: 10;
+}
+.LPmanga03 .LPmanga03BigText .BigTextImg02 {
+  position: absolute;
+  top: -35%;
+  right: 0;
+}
+.LPmanga03 .LPmanga03Box {
+  display: flex;
+  justify-content: center;
+}
+.LPmanga03 .LPmanga03Box .LPmanga03Box02 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.LPmanga03 .LPmanga03Box .LPmanga03Box02 .LPmangaP01 {
+  margin-top: 3rem;
+  color: orange;
+}
+.LPmanga03 .LPmanga03Box .LPmanga03Box02 .LPmangaImgBox {
+  position: relative;
+}
+.LPmanga03 .LPmanga03Box .LPmanga03Box02 .LPmangaImgBox .ImgBox01 {
+  position: absolute;
+  top: -40%;
+  right: 0;
+}
+.LPmanga03 .LPmanga03Box .LPmanga03Box02 .LPmangaP02 {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 footer {
