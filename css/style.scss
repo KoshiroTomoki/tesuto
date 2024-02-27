@@ -19,9 +19,3 @@ body{
     line-height: 1.7rem;
     background-color: #fff6ed;
 }
-
-main{
-    overflow: auto;
-    scroll-snap-type: y mandatory;
-    height: 100vh;
-}
