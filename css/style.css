@@ -535,6 +535,13 @@ header .headerBox .headerNav ul li:last-of-type {
     width: 100%;
   }
 }
+#indexTop {
+  background-image: url(../images/background01.webp);
+}
+#indexTop .backgroundOpacity {
+  background: rgba(255, 255, 255, 0.7);
+}
+
 #index01 {
   display: flex;
   justify-content: center;
@@ -634,7 +641,7 @@ header .headerBox .headerNav ul li:last-of-type {
   }
 }
 #index01 .topBackBox .topTopSquares .squares01 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   position: absolute;
   top: 30%;
   left: 5%;
@@ -649,7 +656,7 @@ header .headerBox .headerNav ul li:last-of-type {
   }
 }
 #index01 .topBackBox .topTopSquares .squares02 {
-  background-color: rgb(255, 217, 159);
+  background-color: #ff9933;
   position: absolute;
   top: 25%;
   left: 10%;
@@ -663,7 +670,7 @@ header .headerBox .headerNav ul li:last-of-type {
   }
 }
 #index01 .topBackBox .topTopSquares .squares03 {
-  background-color: rgb(255, 217, 159);
+  background-color: #ff9933;
   position: absolute;
   top: 80%;
   left: 10%;
@@ -691,7 +698,7 @@ header .headerBox .headerNav ul li:last-of-type {
   }
 }
 #index01 .topBackBox .topTopSquares .squares05 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   position: absolute;
   top: 77%;
   left: 30%;
@@ -705,7 +712,7 @@ header .headerBox .headerNav ul li:last-of-type {
   }
 }
 #index01 .topBackBox .topTopSquares .squares06 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   position: absolute;
   top: 68%;
   left: 60%;
@@ -713,7 +720,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 50px;
 }
 #index01 .topBackBox .topTopSquares .squares07 {
-  background-color: rgb(255, 217, 159);
+  background-color: #ff9933;
   position: absolute;
   top: 70%;
   left: 70%;
@@ -727,7 +734,7 @@ header .headerBox .headerNav ul li:last-of-type {
   }
 }
 #index01 .topBackBox .topTopSquares .squares08 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   position: absolute;
   top: 80%;
   left: 80%;
@@ -747,7 +754,7 @@ header .headerBox .headerNav ul li:last-of-type {
   }
 }
 #index01 .topBackBox .topTopSquares .squares09 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   position: absolute;
   top: 15%;
   left: 90%;
@@ -761,7 +768,7 @@ header .headerBox .headerNav ul li:last-of-type {
   }
 }
 #index01 .topBackBox .topTopSquares .squares10 {
-  background-color: rgb(255, 217, 159);
+  background-color: #ff9933;
   position: absolute;
   top: 30%;
   left: 75%;
@@ -775,7 +782,7 @@ header .headerBox .headerNav ul li:last-of-type {
   }
 }
 #index01 .topBackBox .topTopSquares .squares11 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   position: absolute;
   top: 15%;
   left: 55%;
@@ -789,7 +796,7 @@ header .headerBox .headerNav ul li:last-of-type {
   }
 }
 #index01 .topBackBox .topTopSquares .squares12 {
-  background-color: rgb(255, 217, 159);
+  background-color: #ff9933;
   position: absolute;
   top: 25%;
   left: 45%;
@@ -813,7 +820,7 @@ header .headerBox .headerNav ul li:last-of-type {
   position: relative;
 }
 #index02 .topAboutSquares .squares01 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   opacity: 0.6;
   position: absolute;
   top: 10%;
@@ -823,7 +830,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 100px;
 }
 #index02 .topAboutSquares .squares02 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ff9933;
   opacity: 0.6;
   position: absolute;
   top: 30%;
@@ -833,7 +840,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 50px;
 }
 #index02 .topAboutSquares .squares03 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   opacity: 0.6;
   position: absolute;
   top: 45%;
@@ -843,7 +850,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 80px;
 }
 #index02 .topAboutSquares .squares04 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ff9933;
   opacity: 0.6;
   position: absolute;
   top: 60%;
@@ -853,7 +860,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 80px;
 }
 #index02 .topAboutSquares .squares05 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ff9933;
   opacity: 0.6;
   position: absolute;
   top: 75%;
@@ -863,7 +870,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 80px;
 }
 #index02 .topAboutSquares .squares06 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   opacity: 0.6;
   position: absolute;
   top: 90%;
@@ -873,7 +880,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 50px;
 }
 #index02 .topAboutSquares .squares07 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   opacity: 0.6;
   position: absolute;
   top: 10%;
@@ -883,7 +890,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 80px;
 }
 #index02 .topAboutSquares .squares08 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ff9933;
   opacity: 0.6;
   position: absolute;
   top: 30%;
@@ -893,7 +900,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 80px;
 }
 #index02 .topAboutSquares .squares09 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   opacity: 0.6;
   position: absolute;
   top: 45%;
@@ -903,7 +910,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 70px;
 }
 #index02 .topAboutSquares .squares10 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   opacity: 0.6;
   position: absolute;
   top: 60%;
@@ -913,7 +920,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 60px;
 }
 #index02 .topAboutSquares .squares11 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ff9933;
   opacity: 0.6;
   position: absolute;
   top: 75%;
@@ -923,7 +930,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 50px;
 }
 #index02 .topAboutSquares .squares12 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   opacity: 0.6;
   position: absolute;
   top: 90%;
@@ -970,7 +977,7 @@ header .headerBox .headerNav ul li:last-of-type {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #efe121;
+  background-color: #ff9933;
 }
 #index02 .topAboutBox01 .aboutFlexBox02 p {
   padding: 1rem;
@@ -978,7 +985,7 @@ header .headerBox .headerNav ul li:last-of-type {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #21adba;
+  background-color: #ffcc00;
 }
 #index02 .topAboutBox02 {
   max-width: 1240px;
@@ -996,7 +1003,7 @@ header .headerBox .headerNav ul li:last-of-type {
   text-align: center;
   color: orange;
   background: rgba(255, 255, 255, 0.4);
-  border: solid 2px orange;
+  border: solid 2px #ffcc00;
   border-radius: 50%;
 }
 @media (width <= 768px) {
@@ -1066,7 +1073,7 @@ header .headerBox .headerNav ul li:last-of-type {
   position: relative;
 }
 #index03 .topSNSSquares .squares01 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   opacity: 0.6;
   position: absolute;
   top: 10%;
@@ -1076,7 +1083,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 100px;
 }
 #index03 .topSNSSquares .squares02 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   opacity: 0.6;
   position: absolute;
   top: 30%;
@@ -1086,7 +1093,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 50px;
 }
 #index03 .topSNSSquares .squares03 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   opacity: 0.6;
   position: absolute;
   top: 45%;
@@ -1096,7 +1103,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 80px;
 }
 #index03 .topSNSSquares .squares04 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   opacity: 0.6;
   position: absolute;
   top: 60%;
@@ -1106,7 +1113,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 80px;
 }
 #index03 .topSNSSquares .squares05 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   opacity: 0.6;
   position: absolute;
   top: 75%;
@@ -1116,7 +1123,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 80px;
 }
 #index03 .topSNSSquares .squares06 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   opacity: 0.6;
   position: absolute;
   top: 90%;
@@ -1126,7 +1133,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 50px;
 }
 #index03 .topSNSSquares .squares07 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   opacity: 0.6;
   position: absolute;
   top: 10%;
@@ -1136,7 +1143,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 80px;
 }
 #index03 .topSNSSquares .squares08 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   opacity: 0.6;
   position: absolute;
   top: 35%;
@@ -1146,7 +1153,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 80px;
 }
 #index03 .topSNSSquares .squares09 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   opacity: 0.6;
   position: absolute;
   top: 50%;
@@ -1156,7 +1163,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 50px;
 }
 #index03 .topSNSSquares .squares10 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   opacity: 0.6;
   position: absolute;
   top: 65%;
@@ -1166,7 +1173,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 80px;
 }
 #index03 .topSNSSquares .squares11 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   opacity: 0.6;
   position: absolute;
   top: 80%;
@@ -1176,7 +1183,7 @@ header .headerBox .headerNav ul li:last-of-type {
   height: 50px;
 }
 #index03 .topSNSSquares .squares12 {
-  background-color: rgb(236, 163, 52);
+  background-color: #ffcc00;
   opacity: 0.6;
   position: absolute;
   top: 90%;
@@ -1275,6 +1282,126 @@ header .headerBox .headerNav ul li:last-of-type {
 }
 #index04 .infoBox .infoBox02 img {
   width: 100%;
+}
+
+#chargeTop {
+  background-image: url(../images/background01.webp);
+}
+#chargeTop .backgroundOpacity {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.chargeTop {
+  padding: 5rem 0;
+}
+.chargeTop .chargeToph2 {
+  background-color: white;
+  border-radius: 50%;
+  width: 15rem;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 2rem;
+}
+.chargeList {
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+.chargeList .chargeListTitle .chargeListTitle01 {
+  display: flex;
+  justify-content: center;
+}
+.chargeList .chargeListTitle .chargeListTitle01 .yellow {
+  background-color: #ffcc00;
+  width: 8rem;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0.5rem;
+  color: white;
+  margin: 0.5rem;
+}
+.chargeList .chargeListTitle .chargeListTitle01 .orange {
+  background-color: #ff9933;
+  width: 8rem;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0.5rem;
+  color: white;
+  margin: 0.5rem;
+}
+.chargeList .chargeListTable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5rem 0;
+}
+.chargeList .chargeListTable .hiddenContent {
+  display: none;
+}
+.chargeList .chargeListTable .hiddenContent .hiddenTitle {
+  color: white;
+  background-color: #adadad;
+  padding: 1.5rem;
+  border-radius: 5px;
+  outline: white solid 3px;
+  outline-offset: -6px;
+  text-align: center;
+  margin: 1rem auto;
+  font-size: 2rem;
+}
+.chargeList .chargeListTable .hiddenContent table {
+  text-align: center;
+  border: solid 4px #ffffff;
+  background-color: white;
+}
+.chargeList .chargeListTable .hiddenContent table tr th {
+  border: solid 3px #ffffff;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #BCB5B5;
+  color: #fff;
+}
+.chargeList .chargeListTable .hiddenContent table tr td {
+  border: solid 1px #754c24;
+  padding: 0.5rem;
+}
+.chargeList .chargeListTable .hiddenContent table tr .tdTitle {
+  font-weight: bold;
+  border: solid 3px #ffffff;
+  color: #fff;
+}
+.chargeList .chargeListTable .hiddenContent table tr .color01 {
+  background-color: #BCB5B5;
+}
+.chargeList .chargeListTable .hiddenContent table tr .color02 {
+  background-color: #BCB5B5;
+}
+.chargeList .chargeListTable .hiddenContent.active {
+  display: block;
+}
+.chargeList .chargeListTable .hiddenText {
+  max-width: 380px;
+  margin: 3rem 0rem;
+  text-align: center;
+}
+.chargeList .chargeListTable .hiddenText .hiddenTextButton {
+  background-color: #ff9933;
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  outline: white solid 3px;
+  outline-offset: -5px;
+  text-align: center;
+  width: 11rem;
+  margin: 3rem auto;
+}
+
+#LPmangaTop {
+  background-image: url(../images/background02.webp);
+}
+#LPmangaTop .backgroundOpacity {
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .LPmanga01 .hukidashiBox {

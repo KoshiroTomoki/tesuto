@@ -1,3 +1,11 @@
+#indexTop{
+    background-image: url(../images/background01.webp);
+
+    .backgroundOpacity{
+        background: rgba(255,255,255,0.7);
+    }
+}
+
 #index01 {
     display: flex;
     justify-content: center;
@@ -118,7 +126,7 @@
 
         .topTopSquares {
             .squares01 {
-                background-color: rgb(236, 163, 52);
+                background-color: #ffcc00;
 
                 position: absolute;
                 top: 30%;
@@ -135,7 +143,7 @@
             }
 
             .squares02 {
-                background-color: rgb(255, 217, 159);
+                background-color: #ff9933;
 
                 position: absolute;
                 top: 25%;
@@ -151,7 +159,7 @@
             }
 
             .squares03 {
-                background-color: rgb(255, 217, 159);
+                background-color: #ff9933;
 
                 position: absolute;
                 top: 80%;
@@ -183,7 +191,7 @@
             }
 
             .squares05 {
-                background-color: rgb(236, 163, 52);
+                background-color: #ffcc00;
 
                 position: absolute;
                 top: 77%;
@@ -199,7 +207,7 @@
             }
 
             .squares06 {
-                background-color: rgb(236, 163, 52);
+                background-color: #ffcc00;
 
                 position: absolute;
                 top: 68%;
@@ -210,7 +218,7 @@
             }
 
             .squares07 {
-                background-color: rgb(255, 217, 159);
+                background-color: #ff9933;
 
                 position: absolute;
                 top: 70%;
@@ -226,7 +234,7 @@
             }
 
             .squares08 {
-                background-color: rgb(236, 163, 52);
+                background-color: #ffcc00;
 
                 position: absolute;
                 top: 80%;
@@ -247,7 +255,7 @@
             }
 
             .squares09 {
-                background-color: rgb(236, 163, 52);
+                background-color: #ffcc00;
 
                 position: absolute;
                 top: 15%;
@@ -263,7 +271,7 @@
             }
 
             .squares10 {
-                background-color: rgb(255, 217, 159);
+                background-color: #ff9933;
 
                 position: absolute;
                 top: 30%;
@@ -279,7 +287,7 @@
             }
 
             .squares11 {
-                background-color: rgb(236, 163, 52);
+                background-color: #ffcc00;
 
                 position: absolute;
                 top: 15%;
@@ -296,7 +304,7 @@
             }
 
             .squares12 {
-                background-color: rgb(255, 217, 159);
+                background-color: #ff9933;
 
                 position: absolute;
                 top: 25%;
@@ -329,7 +337,7 @@
     .topAboutSquares {
 
         .squares01 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ffcc00;
             opacity: 0.6;
 
             position: absolute;
@@ -342,7 +350,7 @@
         }
 
         .squares02 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ff9933;
             opacity: 0.6;
 
             position: absolute;
@@ -355,7 +363,7 @@
         }
 
         .squares03 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ffcc00;
             opacity: 0.6;
 
             position: absolute;
@@ -368,7 +376,7 @@
         }
 
         .squares04 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ff9933;
             opacity: 0.6;
 
             position: absolute;
@@ -381,7 +389,7 @@
         }
 
         .squares05 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ff9933;
             opacity: 0.6;
 
             position: absolute;
@@ -394,7 +402,7 @@
         }
 
         .squares06 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ffcc00;
             opacity: 0.6;
 
             position: absolute;
@@ -407,7 +415,7 @@
         }
 
         .squares07 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ffcc00;
             opacity: 0.6;
 
             position: absolute;
@@ -420,7 +428,7 @@
         }
 
         .squares08 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ff9933;
             opacity: 0.6;
 
             position: absolute;
@@ -433,7 +441,7 @@
         }
 
         .squares09 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ffcc00;
             opacity: 0.6;
 
             position: absolute;
@@ -446,7 +454,7 @@
         }
 
         .squares10 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ffcc00;
             opacity: 0.6;
 
             position: absolute;
@@ -459,7 +467,7 @@
         }
 
         .squares11 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ff9933;
             opacity: 0.6;
 
             position: absolute;
@@ -472,7 +480,7 @@
         }
 
         .squares12 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ffcc00;
             opacity: 0.6;
 
             position: absolute;
@@ -524,7 +532,7 @@
                 justify-content: center;
                 align-items: center;
 
-                background-color: #efe121;
+                background-color: #ff9933;
             }
         }
 
@@ -538,7 +546,7 @@
                 justify-content: center;
                 align-items: center;
 
-                background-color: #21adba;
+                background-color: #ffcc00;
             }
         }
     }
@@ -560,7 +568,7 @@
             text-align: center;
             color: orange;
             background: rgba(255, 255, 255, 0.4);
-            border: solid 2px orange;
+            border: solid 2px #ffcc00;
             border-radius: 50%;
 
             @media (width <=768px) {
@@ -643,7 +651,7 @@
     .topSNSSquares {
 
         .squares01 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ffcc00;
             opacity: 0.6;
 
             position: absolute;
@@ -656,7 +664,7 @@
         }
 
         .squares02 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ffcc00;
             opacity: 0.6;
 
             position: absolute;
@@ -669,7 +677,7 @@
         }
 
         .squares03 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ffcc00;
             opacity: 0.6;
 
             position: absolute;
@@ -682,7 +690,7 @@
         }
 
         .squares04 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ffcc00;
             opacity: 0.6;
 
             position: absolute;
@@ -695,7 +703,7 @@
         }
 
         .squares05 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ffcc00;
             opacity: 0.6;
 
             position: absolute;
@@ -708,7 +716,7 @@
         }
 
         .squares06 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ffcc00;
             opacity: 0.6;
 
             position: absolute;
@@ -721,7 +729,7 @@
         }
 
         .squares07 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ffcc00;
             opacity: 0.6;
 
             position: absolute;
@@ -734,7 +742,7 @@
         }
 
         .squares08 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ffcc00;
             opacity: 0.6;
 
             position: absolute;
@@ -747,7 +755,7 @@
         }
 
         .squares09 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ffcc00;
             opacity: 0.6;
 
             position: absolute;
@@ -760,7 +768,7 @@
         }
 
         .squares10 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ffcc00;
             opacity: 0.6;
 
             position: absolute;
@@ -773,7 +781,7 @@
         }
 
         .squares11 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ffcc00;
             opacity: 0.6;
 
             position: absolute;
@@ -786,7 +794,7 @@
         }
 
         .squares12 {
-            background-color: rgb(236, 163, 52);
+            background-color: #ffcc00;
             opacity: 0.6;
 
             position: absolute;

@@ -1,0 +1,137 @@
+#chargeTop{
+    background-image: url(../images/background01.webp);
+
+    .backgroundOpacity{
+        background: rgba(255,255,255,0.7);
+    }
+}
+
+.chargeTop {
+    padding: 5rem 0;
+
+    .chargeToph2 {
+        background-color: white;
+        border-radius: 50%;
+        width: 15rem;
+        margin: 0 auto;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 2rem;
+    }
+    .chargeTop0{
+
+    }
+}
+
+.chargeList {
+    margin: 0 0.5rem;
+    cursor: pointer;
+
+    .chargeListTitle {
+
+        .chargeListTitle01 {
+            display: flex;
+            justify-content: center;
+
+            .yellow {
+                background-color: #ffcc00;
+                width: 8rem;
+                border-radius: 5px;
+                text-align: center;
+                padding: 0.5rem;
+                color: white;
+                margin: 0.5rem;
+            }
+
+            .orange {
+                background-color: #ff9933;
+                width: 8rem;
+                border-radius: 5px;
+                text-align: center;
+                padding: 0.5rem;
+                color: white;
+                margin: 0.5rem;
+            }
+        }
+    }
+
+    .chargeListTable {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 5rem 0;
+
+        .hiddenContent {
+            display: none;
+
+            .hiddenTitle{
+                color: white;
+                background-color: #adadad;
+                padding: 1.5rem;
+                border-radius: 5px;
+                outline: white solid 3px;
+                outline-offset: -6px;
+                text-align: center;
+                margin: 1rem auto;
+                font-size: 2rem;
+            }
+
+            table {
+                text-align: center;
+                border: solid 4px #ffffff;
+                background-color: white;
+                tr {
+                    th {
+                        border: solid 3px #ffffff;
+                        padding: 0.5rem;
+                        text-align: center;
+                        background-color: #BCB5B5;
+                        color: #fff;
+                    }
+
+                    td {
+                        border: solid 1px #754c24;
+                        padding: 0.5rem;
+                    }
+
+                    .tdTitle {
+                        font-weight: bold;
+                        border: solid 3px #ffffff;
+                        color: #fff;
+                    }
+
+                    .color01{
+                        background-color: #BCB5B5;
+                    }
+
+                    .color02{
+                        background-color: #BCB5B5;
+                    }
+                }
+            }
+        }
+
+        .hiddenContent.active {
+            display: block;
+        }
+
+        .hiddenText {
+            max-width: 380px;
+            margin: 3rem 0rem;
+            text-align: center;
+
+            .hiddenTextButton {
+                background-color: #ff9933;
+                color: white;
+                padding: 1rem;
+                border-radius: 5px;
+                outline: white solid 3px;
+                outline-offset: -5px;
+                text-align: center;
+                width: 11rem;
+                margin: 3rem auto;
+            }
+        }
+    }
+}
