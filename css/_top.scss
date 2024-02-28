@@ -1,8 +1,12 @@
-#indexTop{
+#indexTop {
     background-image: url(../images/background01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -100;
 
-    .backgroundOpacity{
-        background: rgba(255,255,255,0.7);
+    .backgroundOpacity {
+        background: rgba(255, 255, 255, 0.4);
+        z-index: -100;
     }
 }
 
@@ -333,8 +337,10 @@
     flex-direction: column;
 
     position: relative;
+    z-index: 10;
 
     .topAboutSquares {
+        z-index: -1;
 
         .squares01 {
             background-color: #ffcc00;
@@ -343,7 +349,7 @@
             position: absolute;
             top: 10%;
             left: 5%;
-            z-index: -10;
+
 
             width: 100px;
             height: 100px;
@@ -356,7 +362,7 @@
             position: absolute;
             top: 30%;
             left: 0%;
-            z-index: -10;
+
 
             width: 70px;
             height: 50px;
@@ -369,7 +375,7 @@
             position: absolute;
             top: 45%;
             left: 4%;
-            z-index: -10;
+
 
             width: 80px;
             height: 80px;
@@ -382,7 +388,7 @@
             position: absolute;
             top: 60%;
             left: 2%;
-            z-index: -10;
+
 
             width: 50px;
             height: 80px;
@@ -395,7 +401,7 @@
             position: absolute;
             top: 75%;
             left: 5%;
-            z-index: -10;
+
 
             width: 50px;
             height: 80px;
@@ -408,7 +414,7 @@
             position: absolute;
             top: 90%;
             left: 3%;
-            z-index: -10;
+
 
             width: 50px;
             height: 50px;
@@ -421,7 +427,7 @@
             position: absolute;
             top: 10%;
             right: 5%;
-            z-index: -10;
+
 
             width: 100px;
             height: 80px;
@@ -434,7 +440,7 @@
             position: absolute;
             top: 30%;
             right: 2%;
-            z-index: -10;
+
 
             width: 80px;
             height: 80px;
@@ -447,7 +453,7 @@
             position: absolute;
             top: 45%;
             right: 3%;
-            z-index: -10;
+
 
             width: 50px;
             height: 70px;
@@ -460,7 +466,7 @@
             position: absolute;
             top: 60%;
             right: 4%;
-            z-index: -10;
+
 
             width: 90px;
             height: 60px;
@@ -473,7 +479,7 @@
             position: absolute;
             top: 75%;
             right: 1%;
-            z-index: -10;
+
 
             width: 50px;
             height: 50px;
@@ -486,7 +492,7 @@
             position: absolute;
             top: 90%;
             right: 5%;
-            z-index: -10;
+
 
             width: 60px;
             height: 70px;
@@ -595,7 +601,7 @@
                 max-width: 200px;
 
                 @media (width <=768px) {
-                    max-width: 100px;
+                    max-width: 150px;
                 }
 
                 img {
@@ -614,6 +620,7 @@
                 a {
                     box-shadow: 0px 0px 10px orange;
                     transition: 0.5s;
+
                     img {
                         width: 100%;
                     }
@@ -647,6 +654,7 @@
     max-width: 1240px;
     margin: 0 auto;
     position: relative;
+    z-index: 10;
 
     .topSNSSquares {
 
@@ -657,10 +665,10 @@
             position: absolute;
             top: 10%;
             left: 5%;
-            z-index: -10;
 
             width: 100px;
             height: 100px;
+            z-index: -10;
         }
 
         .squares02 {
@@ -670,10 +678,10 @@
             position: absolute;
             top: 30%;
             left: 0%;
-            z-index: -10;
 
             width: 70px;
             height: 50px;
+            z-index: -10;
         }
 
         .squares03 {
@@ -683,10 +691,10 @@
             position: absolute;
             top: 45%;
             left: 4%;
-            z-index: -10;
 
             width: 80px;
             height: 80px;
+            z-index: -10;
         }
 
         .squares04 {
@@ -696,10 +704,10 @@
             position: absolute;
             top: 60%;
             left: 2%;
-            z-index: -10;
 
             width: 50px;
             height: 80px;
+            z-index: -10;
         }
 
         .squares05 {
@@ -709,10 +717,10 @@
             position: absolute;
             top: 75%;
             left: 5%;
-            z-index: -10;
 
             width: 50px;
             height: 80px;
+            z-index: -10;
         }
 
         .squares06 {
@@ -722,10 +730,10 @@
             position: absolute;
             top: 90%;
             left: 3%;
-            z-index: -10;
 
             width: 50px;
             height: 50px;
+            z-index: -10;
         }
 
         .squares07 {
@@ -735,10 +743,10 @@
             position: absolute;
             top: 10%;
             right: 5%;
-            z-index: -10;
 
             width: 100px;
             height: 80px;
+            z-index: -10;
         }
 
         .squares08 {
@@ -748,10 +756,10 @@
             position: absolute;
             top: 35%;
             right: 2%;
-            z-index: -10;
 
             width: 80px;
             height: 80px;
+            z-index: -10;
         }
 
         .squares09 {
@@ -761,10 +769,10 @@
             position: absolute;
             top: 50%;
             right: 2%;
-            z-index: -10;
 
             width: 90px;
             height: 50px;
+            z-index: -10;
         }
 
         .squares10 {
@@ -774,10 +782,10 @@
             position: absolute;
             top: 65%;
             right: 5%;
-            z-index: -10;
 
             width: 50px;
             height: 80px;
+            z-index: -10;
         }
 
         .squares11 {
@@ -787,10 +795,10 @@
             position: absolute;
             top: 80%;
             right: 3%;
-            z-index: -10;
 
             width: 50px;
             height: 50px;
+            z-index: -10;
         }
 
         .squares12 {
@@ -800,10 +808,10 @@
             position: absolute;
             top: 90%;
             right: 5%;
-            z-index: -10;
 
             width: 100px;
             height: 80px;
+            z-index: -10;
         }
     }
 
@@ -840,19 +848,15 @@
             // }
         }
     }
-
-    @media (width <=500px) {
-        font-size: 1.5rem;
-    }
 }
 
 #index04 {
 
-    margin: 5rem auto;
+    margin: 5rem auto 0;
     width: 80%;
 
     @media (width <=768px) {
-    width: 95%;
+        width: 95%;
     }
 
 

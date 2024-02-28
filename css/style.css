@@ -537,9 +537,13 @@ header .headerBox .headerNav ul li:last-of-type {
 }
 #indexTop {
   background-image: url(../images/background01.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -100;
 }
 #indexTop .backgroundOpacity {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.4);
+  z-index: -100;
 }
 
 #index01 {
@@ -818,6 +822,10 @@ header .headerBox .headerNav ul li:last-of-type {
   align-items: center;
   flex-direction: column;
   position: relative;
+  z-index: 10;
+}
+#index02 .topAboutSquares {
+  z-index: -1;
 }
 #index02 .topAboutSquares .squares01 {
   background-color: #ffcc00;
@@ -825,7 +833,6 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 10%;
   left: 5%;
-  z-index: -10;
   width: 100px;
   height: 100px;
 }
@@ -835,7 +842,6 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 30%;
   left: 0%;
-  z-index: -10;
   width: 70px;
   height: 50px;
 }
@@ -845,7 +851,6 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 45%;
   left: 4%;
-  z-index: -10;
   width: 80px;
   height: 80px;
 }
@@ -855,7 +860,6 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 60%;
   left: 2%;
-  z-index: -10;
   width: 50px;
   height: 80px;
 }
@@ -865,7 +869,6 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 75%;
   left: 5%;
-  z-index: -10;
   width: 50px;
   height: 80px;
 }
@@ -875,7 +878,6 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 90%;
   left: 3%;
-  z-index: -10;
   width: 50px;
   height: 50px;
 }
@@ -885,7 +887,6 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 10%;
   right: 5%;
-  z-index: -10;
   width: 100px;
   height: 80px;
 }
@@ -895,7 +896,6 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 30%;
   right: 2%;
-  z-index: -10;
   width: 80px;
   height: 80px;
 }
@@ -905,7 +905,6 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 45%;
   right: 3%;
-  z-index: -10;
   width: 50px;
   height: 70px;
 }
@@ -915,7 +914,6 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 60%;
   right: 4%;
-  z-index: -10;
   width: 90px;
   height: 60px;
 }
@@ -925,7 +923,6 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 75%;
   right: 1%;
-  z-index: -10;
   width: 50px;
   height: 50px;
 }
@@ -935,7 +932,6 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 90%;
   right: 5%;
-  z-index: -10;
   width: 60px;
   height: 70px;
 }
@@ -1031,7 +1027,7 @@ header .headerBox .headerNav ul li:last-of-type {
 }
 @media (width <= 768px) {
   #index02 .topAboutBox02 .topAboutLink .linkPeople {
-    max-width: 100px;
+    max-width: 150px;
   }
 }
 #index02 .topAboutBox02 .topAboutLink .linkPeople img {
@@ -1071,6 +1067,7 @@ header .headerBox .headerNav ul li:last-of-type {
   max-width: 1240px;
   margin: 0 auto;
   position: relative;
+  z-index: 10;
 }
 #index03 .topSNSSquares .squares01 {
   background-color: #ffcc00;
@@ -1078,9 +1075,9 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 10%;
   left: 5%;
-  z-index: -10;
   width: 100px;
   height: 100px;
+  z-index: -10;
 }
 #index03 .topSNSSquares .squares02 {
   background-color: #ffcc00;
@@ -1088,9 +1085,9 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 30%;
   left: 0%;
-  z-index: -10;
   width: 70px;
   height: 50px;
+  z-index: -10;
 }
 #index03 .topSNSSquares .squares03 {
   background-color: #ffcc00;
@@ -1098,9 +1095,9 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 45%;
   left: 4%;
-  z-index: -10;
   width: 80px;
   height: 80px;
+  z-index: -10;
 }
 #index03 .topSNSSquares .squares04 {
   background-color: #ffcc00;
@@ -1108,9 +1105,9 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 60%;
   left: 2%;
-  z-index: -10;
   width: 50px;
   height: 80px;
+  z-index: -10;
 }
 #index03 .topSNSSquares .squares05 {
   background-color: #ffcc00;
@@ -1118,9 +1115,9 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 75%;
   left: 5%;
-  z-index: -10;
   width: 50px;
   height: 80px;
+  z-index: -10;
 }
 #index03 .topSNSSquares .squares06 {
   background-color: #ffcc00;
@@ -1128,9 +1125,9 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 90%;
   left: 3%;
-  z-index: -10;
   width: 50px;
   height: 50px;
+  z-index: -10;
 }
 #index03 .topSNSSquares .squares07 {
   background-color: #ffcc00;
@@ -1138,9 +1135,9 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 10%;
   right: 5%;
-  z-index: -10;
   width: 100px;
   height: 80px;
+  z-index: -10;
 }
 #index03 .topSNSSquares .squares08 {
   background-color: #ffcc00;
@@ -1148,9 +1145,9 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 35%;
   right: 2%;
-  z-index: -10;
   width: 80px;
   height: 80px;
+  z-index: -10;
 }
 #index03 .topSNSSquares .squares09 {
   background-color: #ffcc00;
@@ -1158,9 +1155,9 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 50%;
   right: 2%;
-  z-index: -10;
   width: 90px;
   height: 50px;
+  z-index: -10;
 }
 #index03 .topSNSSquares .squares10 {
   background-color: #ffcc00;
@@ -1168,9 +1165,9 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 65%;
   right: 5%;
-  z-index: -10;
   width: 50px;
   height: 80px;
+  z-index: -10;
 }
 #index03 .topSNSSquares .squares11 {
   background-color: #ffcc00;
@@ -1178,9 +1175,9 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 80%;
   right: 3%;
-  z-index: -10;
   width: 50px;
   height: 50px;
+  z-index: -10;
 }
 #index03 .topSNSSquares .squares12 {
   background-color: #ffcc00;
@@ -1188,9 +1185,9 @@ header .headerBox .headerNav ul li:last-of-type {
   position: absolute;
   top: 90%;
   right: 5%;
-  z-index: -10;
   width: 100px;
   height: 80px;
+  z-index: -10;
 }
 #index03 .SNSBox {
   text-align: center;
@@ -1217,14 +1214,9 @@ header .headerBox .headerNav ul li:last-of-type {
   margin-top: 3rem;
   background-color: white;
 }
-@media (width <= 500px) {
-  #index03 {
-    font-size: 1.5rem;
-  }
-}
 
 #index04 {
-  margin: 5rem auto;
+  margin: 5rem auto 0;
   width: 80%;
 }
 @media (width <= 768px) {
@@ -1286,6 +1278,9 @@ header .headerBox .headerNav ul li:last-of-type {
 
 #chargeTop {
   background-image: url(../images/background01.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -100;
 }
 #chargeTop .backgroundOpacity {
   background: rgba(255, 255, 255, 0.7);
@@ -1303,6 +1298,7 @@ header .headerBox .headerNav ul li:last-of-type {
   text-align: center;
   padding: 2rem;
 }
+
 .chargeList {
   margin: 0 0.5rem;
   cursor: pointer;
@@ -1334,7 +1330,7 @@ header .headerBox .headerNav ul li:last-of-type {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 5rem 0;
+  margin: 5rem 0 0;
 }
 .chargeList .chargeListTable .hiddenContent {
   display: none;
@@ -1399,6 +1395,9 @@ header .headerBox .headerNav ul li:last-of-type {
 
 #LPmangaTop {
   background-image: url(../images/background02.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -100;
 }
 #LPmangaTop .backgroundOpacity {
   background: rgba(255, 255, 255, 0.7);
@@ -1552,7 +1551,6 @@ header .headerBox .headerNav ul li:last-of-type {
 
 footer {
   background-color: white;
-  border-top: solid orange 3px;
 }
 footer p {
   text-align: center;

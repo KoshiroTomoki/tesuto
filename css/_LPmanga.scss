@@ -1,6 +1,9 @@
 #LPmangaTop{
     background-image: url(../images/background02.webp);
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -100;
+    
     .backgroundOpacity{
         background: rgba(255,255,255,0.7);
     }
