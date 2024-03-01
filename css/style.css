@@ -1366,6 +1366,7 @@ header .headerBox .headerNav ul li:last-of-type {
   font-weight: bold;
   border: solid 3px #ffffff;
   color: #fff;
+  background-color: #BCB5B5;
 }
 .chargeList .chargeListTable .hiddenContent table tr .color01 {
   background-color: #BCB5B5;
