@@ -1,11 +1,11 @@
-#LPmangaTop{
-    background-image: url(../images/background02.webp);
+#LPmangaTop {
+    background-image: url(../images/background01.webp);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -100;
-    
-    .backgroundOpacity{
-        background: rgba(255,255,255,0.7);
+
+    .backgroundOpacity {
+        background: rgba(255, 255, 255, 0.7);
     }
 }
 
@@ -126,11 +126,42 @@
 }
 
 .LPmanga02 {
-    height: 10vh;
+    padding: 0 0 5rem;
+
+    .mangaBox {
+        margin: 0 1rem;
+
+        .manga {
+            max-width: 500px;
+            margin: 5rem auto 0;
+
+            h3 {
+                color: orange;
+                font-size: 1.5rem;
+                text-align: center;
+                padding: 0.5rem;
+            }
+
+            p {
+                img:hover {
+                    box-shadow: 0 0 0 0 white;
+                    transition: 0.3s;
+                }
+
+                img {
+                    box-shadow: 0 0 5px rgb(164, 164, 164);
+                    width: 100%;
+                    border: rgb(255, 229, 181) solid 3px;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
 }
 
 .LPmanga03 {
-    margin: 5rem 0;
+    margin: 5rem 0 0;
+    padding-bottom: 3rem;
 
     .LPmanga03BigText {
         position: relative;
@@ -163,13 +194,16 @@
 
     .LPmanga03Box {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+        width: 50%;
+        margin: 0 auto;
 
 
         .LPmanga03Box02 {
             display: flex;
             justify-content: space-between;
             flex-direction: column;
+
             .LPmangaP01 {
                 margin-top: 3rem;
                 color: orange;
@@ -188,6 +222,7 @@
             .LPmangaP02 {
                 font-size: 1.5rem;
                 font-weight: bold;
+                color: rgb(96, 96, 96);
             }
         }
     }

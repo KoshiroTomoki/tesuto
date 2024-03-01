@@ -781,7 +781,7 @@ header .headerBox .headerNav ul li:last-of-type {
 }
 @media (width <= 768px) {
   #index01 .topBackBox .topTopSquares .squares10 {
-    top: 37%;
+    top: 30%;
     left: 75%;
   }
 }
@@ -1287,9 +1287,12 @@ header .headerBox .headerNav ul li:last-of-type {
 }
 
 .chargeTop {
-  padding: 5rem 0;
+  padding: 5rem 0 1rem;
 }
-.chargeTop .chargeToph2 {
+.chargeTop .chargeTopTitle {
+  position: relative;
+}
+.chargeTop .chargeTopTitle .chargeToph2 {
   background-color: white;
   border-radius: 50%;
   width: 15rem;
@@ -1298,6 +1301,15 @@ header .headerBox .headerNav ul li:last-of-type {
   text-align: center;
   padding: 2rem;
 }
+.chargeTop .chargeTopTitle .chargeTopImg {
+  position: absolute;
+  top: 0;
+  right: 18%;
+  transform: rotate(15deg);
+}
+.chargeTop .chargeTop02 {
+  text-align: center;
+}
 
 .chargeList {
   margin: 0 0.5rem;
@@ -1305,22 +1317,23 @@ header .headerBox .headerNav ul li:last-of-type {
 .chargeList .chargeListTitle .chargeListTitle01 {
   display: flex;
   justify-content: center;
+  font-size: 1.2rem;
 }
 .chargeList .chargeListTitle .chargeListTitle01 .yellow {
   background-color: #ffcc00;
-  width: 8rem;
+  width: 10rem;
   border-radius: 5px;
   text-align: center;
-  padding: 0.5rem;
+  padding: 1rem 0.5rem;
   color: white;
   margin: 0.5rem;
 }
 .chargeList .chargeListTitle .chargeListTitle01 .orange {
   background-color: #ff9933;
-  width: 8rem;
+  width: 10rem;
   border-radius: 5px;
   text-align: center;
-  padding: 0.5rem;
+  padding: 1rem 0.5rem;
   color: white;
   margin: 0.5rem;
 }
@@ -1329,21 +1342,33 @@ header .headerBox .headerNav ul li:last-of-type {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 5rem 0 0;
+  margin: 3rem 0 0;
 }
 .chargeList .chargeListTable .hiddenContent {
   display: none;
 }
 .chargeList .chargeListTable .hiddenContent .hiddenTitle {
-  color: white;
-  background-color: #adadad;
+  position: relative;
+}
+.chargeList .chargeListTable .hiddenContent .hiddenTitle h3 {
+  color: rgb(255, 255, 255);
+  background-color: #BCB5B5;
   padding: 1.5rem;
   border-radius: 5px;
-  outline: white solid 3px;
+  outline: rgb(255, 255, 255) solid 3px;
   outline-offset: -6px;
   text-align: center;
   margin: 1rem auto;
   font-size: 2rem;
+}
+.chargeList .chargeListTable .hiddenContent .hiddenTitle p {
+  max-width: 100px;
+  position: absolute;
+  top: -30%;
+  left: 0;
+}
+.chargeList .chargeListTable .hiddenContent .hiddenTitle p img {
+  width: 100%;
 }
 .chargeList .chargeListTable .hiddenContent table {
   text-align: center;
@@ -1366,6 +1391,7 @@ header .headerBox .headerNav ul li:last-of-type {
   border: solid 3px #ffffff;
   color: #fff;
   background-color: #BCB5B5;
+  width: 9rem;
 }
 .chargeList .chargeListTable .hiddenContent table tr .color01 {
   background-color: #BCB5B5;
@@ -1392,9 +1418,25 @@ header .headerBox .headerNav ul li:last-of-type {
   width: 11rem;
   margin: 3rem auto;
 }
+.chargeList .chargeBottom {
+  padding: 2rem 0.5rem 2rem;
+  background-color: white;
+}
+.chargeList .chargeBottom p {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+.chargeList .chargeBottom .chargeBottomImg {
+  display: flex;
+  justify-content: space-around;
+}
+.chargeList .chargeBottom .chargeBottomImg img {
+  max-width: 100px;
+}
 
 #LPmangaTop {
-  background-image: url(../images/background02.webp);
+  background-image: url(../images/background01.webp);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -100;
@@ -1495,11 +1537,35 @@ header .headerBox .headerNav ul li:last-of-type {
 }
 
 .LPmanga02 {
-  height: 10vh;
+  padding: 0 0 5rem;
+}
+.LPmanga02 .mangaBox {
+  margin: 0 1rem;
+}
+.LPmanga02 .mangaBox .manga {
+  max-width: 500px;
+  margin: 5rem auto 0;
+}
+.LPmanga02 .mangaBox .manga h3 {
+  color: orange;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+.LPmanga02 .mangaBox .manga p img:hover {
+  box-shadow: 0 0 0 0 white;
+  transition: 0.3s;
+}
+.LPmanga02 .mangaBox .manga p img {
+  box-shadow: 0 0 5px rgb(164, 164, 164);
+  width: 100%;
+  border: rgb(255, 229, 181) solid 3px;
+  transition: 0.3s;
 }
 
 .LPmanga03 {
-  margin: 5rem 0;
+  margin: 5rem 0 0;
+  padding-bottom: 3rem;
 }
 .LPmanga03 .LPmanga03BigText {
   position: relative;
@@ -1525,7 +1591,9 @@ header .headerBox .headerNav ul li:last-of-type {
 }
 .LPmanga03 .LPmanga03Box {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
 }
 .LPmanga03 .LPmanga03Box .LPmanga03Box02 {
   display: flex;
@@ -1547,6 +1615,63 @@ header .headerBox .headerNav ul li:last-of-type {
 .LPmanga03 .LPmanga03Box .LPmanga03Box02 .LPmangaP02 {
   font-size: 1.5rem;
   font-weight: bold;
+  color: rgb(96, 96, 96);
+}
+
+#contactTop {
+  background-image: url(../images/background01.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -100;
+  margin: 0 0.5rem;
+}
+#contactTop .backgroundOpacity {
+  background: rgba(255, 255, 255, 0.4);
+  z-index: -100;
+}
+
+.FAQsection {
+  padding: 5rem 0 5rem;
+  text-align: center;
+}
+.FAQsection .FAQTitle .FAQH2 {
+  font-size: 1.5rem;
+  color: orange;
+  font-weight: bold;
+}
+.FAQsection .FAQBox {
+  margin: 5rem auto;
+}
+.FAQsection .FAQBox .FAQBox01 {
+  margin: 3rem auto;
+  width: 95%;
+}
+.FAQsection .FAQBox .FAQBox01 .QBox {
+  background: orange;
+  cursor: pointer;
+  padding: 1rem;
+  color: white;
+  outline: solid 3px white;
+  outline-offset: -7px;
+  font-weight: bold;
+}
+.FAQsection .FAQBox .FAQBox01 .ABox {
+  background: rgb(255, 255, 255);
+  display: none;
+  padding: 1rem;
+  width: 94%;
+  text-align: left;
+  margin: 0 auto;
+  transform: translateY(-4px);
+  outline: solid 5px orange;
+  outline-offset: -5px;
+}
+.FAQsection .FAQBox .FAQBox01 .ABox span {
+  color: orange;
+  font-size: 2rem;
+}
+.FAQsection .FAQBox .FAQBox01 .FAQactive {
+  display: block;
 }
 
 footer {
@@ -1576,6 +1701,20 @@ body {
   100% {
     opacity: 0.8;
     transform: translateY(0);
+  }
+}
+.fade-in_FAQ {
+  animation: fade-in_FAQ 0.3s ease-in-out;
+}
+
+@keyframes fade-in_FAQ {
+  0% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-4px);
   }
 }
 .fuwa01 {

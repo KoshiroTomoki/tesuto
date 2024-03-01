@@ -31,6 +31,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+
+
 {
     const menuItems = document.querySelectorAll('.chargeButton');
     const contents = document.querySelectorAll('.hiddenContent');
@@ -50,4 +52,27 @@ document.addEventListener('DOMContentLoaded', function () {
             document.getElementById(clickedItem.dataset.id).classList.add('active');
         });
     });
+}
+
+
+{
+    document.addEventListener('DOMContentLoaded', function () {
+        const faqBoxes = document.querySelectorAll('.FAQBox');
+      
+        faqBoxes.forEach((faqBox) => {
+          const qBoxes = faqBox.querySelectorAll('.QBox');
+          const aBoxes = faqBox.querySelectorAll('.ABox');
+      
+          qBoxes.forEach((qBox, index) => {
+            qBox.addEventListener('click', () => {
+              const currentABox = aBoxes[index];
+              const isActive = currentABox.classList.contains('FAQactive');
+      
+              aBoxes.forEach((box) => box.classList.remove('FAQactive'));
+              isActive ? currentABox.classList.remove('FAQactive') : currentABox.classList.add('FAQactive');
+            });
+          });
+        });
+      });
+      
 }

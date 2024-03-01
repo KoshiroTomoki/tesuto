@@ -1,38 +1,152 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
-
     <header>
-        <ul>
-            <li>aaa</li>
-            <li>bbb</li>
-            <li>ccc</li>
-        </ul>
+        <div class="headerBox">
+            <div class="headerImg">
+                <img src="images/logo.webp" alt="アーティスクリニックロゴ">
+            </div>
+
+            <div class="headerNav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="LPmanga.html">漫画一覧</a></li>
+                    <li><a href="charge.html">料金案内</a></li>
+                    <li><a href="index.html#index03">SNS</a></li>
+                    <li><a href="index.html#index04">アクセス</a></li>
+                    <li><a href="contact.html">Q＆A</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
+    <button class="toggleButton">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <nav id="drawerMenu">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="LPmanga.html">漫画一覧</a></li>
+            <li><a href="charge.html">料金案内</a></li>
+            <li><a href="index.html#index03">SNS</a></li>
+            <li><a href="index.html#index04">アクセス</a></li>
+            <li><a href="contact.html">Q＆A</a></li>
+        </ul>
+    </nav>
 
-    <main>
+    <main id="contactTop">
+        <div class="backgroundOpacity">
+            <section class="FAQsection">
+                <div class="FAQTitle">
+                    <h2 class="FAQH2">よくある質問</h2>
+                    <p class="FAQImg"><img src="images/doctor&girl.webp" alt="院長と患者さん"></p>
+                </div>
 
-        <h1 class="contacth1">お問い合わせページです</h1>
+                <div class="FAQBox">
+                    <div class="FAQBox01">
+                        <p class="QBox">Q　受診に際して予約は必要ですか？</p>
+                        <p class="ABox fade-in_FAQ"><span>A.</span>　当クリニックは完全予約制となっておりますので、事前にご予約をお取りください。</p>
+                    </div>
+                    <div class="FAQBox01">
+                        <p class="QBox">Q　カウンセリングを受けたいのですが、費用はかかりますか？</p>
+                        <p class="ABox fade-in_FAQ"><span>A.</span>　無料でカウンセリングを承っておりますので、費用のことを気にせずに何でも気軽にご相談ください。</p>
+                    </div>
+                    <div class="FAQBox01">
+                        <p class="QBox">Q　他の患者さんと顔を合わせたくないのですが…</p>
+                        <p class="ABox fade-in_FAQ"><span>A.</span>　当クリニックでは“ワンパーソンシステム”を導入しており、基本的にクリニック内にはお一人の患者様しかいない状態となっています。他の患者様と会わずに受診することが可能ですので、安心してご来院ください。</p>
+                    </div>
+                    <div class="FAQBox01">
+                        <p class="QBox">Q　手術は誰が担当してくれるのですか？</p>
+                        <p class="ABox fade-in_FAQ">
+                            <span>A.</span>　当クリニックの手術はすべて院長が担当します。<br>
+                            手術だけでなく、初診のカウンセリングからアフターフォローまで、一貫して院長が担当いたします。安心してお任せください。
+                        </p>
+                    </div>
+                    <div class="FAQBox01">
+                        <p class="QBox">Q　二重まぶた手術を受けたいのですが…ダウンタイムが心配です</p>
+                        <p class="ABox fade-in_FAQ"><span>A.</span>　当クリニックオリジナルの術式である“LS法”なら、しっかりと二重まぶたを作ることが可能なだけでなく、術後の痛み・腫れが少ない手術が可能になります。<br>
+                        ダウンタイムが心配な方にもおすすめです。
+                        是非、ご検討ください。</p>
+                    </div>
+                    <div class="FAQBox01">
+                        <p class="QBox">Q　二重まぶた手術の際の痛みが不安なのですが…</p>
+                        <p class="ABox fade-in_FAQ"><span>A.</span>　当クリニックの院長は麻酔科医でもあり、患者様の痛みに対する不安・恐怖に配慮して手術することをモットーとしています。<br>
+                        また様々な麻酔の工夫により、できる限り痛み・腫れを抑えて手術しますのでご安心ください。</p>
+                    </div>
+                    <div class="FAQBox01">
+                        <p class="QBox">Q　二重まぶたの手術を受けたことをまわりに知られたくないのですが…</p>
+                        <p class="ABox fade-in_FAQ"><span>A.</span>　当クリニックの二重まぶた手術（LS法）は、他の方法と比べて術後の痛み・腫れが少ない手術となっています。<br>
+                        「100％まわりの人に知られることはない」と言うことはできませんが、他の方法よりも気づかれる確率は低いと言えます。</p>
+                    </div>
+                    <div class="FAQBox01">
+                        <p class="QBox">Q　LS法と従来の埋没法の違いは何ですか？</p>
+                        <p class="ABox fade-in_FAQ"><span>A.</span>　LS法は埋没法と同様に切開が不要な手術ですが、従来の埋没法のデメリットである後戻りのしやすさや、適応となるまぶたが限られる、デザインに制限があるなどが改善・改良されています。</p>
+                    </div>
+                    <div class="FAQBox01">
+                        <p class="QBox">Q　二重まぶた手術に保証制度はありますか？</p>
+                        <p class="ABox fade-in_FAQ"><span>A.</span>　当クリニックオリジナルのLS法に、“LS法特別保証制度”を設けております。<br>
+                        仕上がり保証やライン保証、痛み保証、腫れ保証など様々な保証がありますので、安心して手術を受けていただくことができます。</p>
+                    </div>
+                    <div class="FAQBox01">
+                        <p class="QBox">Q　二重まぶた手術の際の痛みが不安なのですが…</p>
+                        <p class="ABox fade-in_FAQ"><span>A.</span>　当クリニックの院長は麻酔科医でもあり、患者様の痛みに対する不安・恐怖に配慮して手術することをモットーとしています。<br>
+                        また様々な麻酔の工夫により、できる限り痛み・腫れを抑えて手術しますのでご安心ください。</p>
+                    </div>
+                    <div class="FAQBox01">
+                        <p class="QBox">Q　目元の手術以外にも対応していますか？</p>
+                        <p class="ABox fade-in_FAQ"><span>A.</span>　美容外科手術の豊富な経験・実績を持つ院長が、二重まぶた手術などの目元の手術以外にも、鼻を高くする手術、フェイスラインを整える手術、バストのお悩みを解消する手術など、様々な美容外科手術に対応いたしますので、目元以外のお悩みもお気軽にご相談ください。</p>
+                    </div>
+                    <div class="FAQBox01">
+                        <p class="QBox">Q　抗生物質で薬疹が出るのですが、術後にもらった薬は絶対に飲まないといけませんか？</p>
+                        <p class="ABox fade-in_FAQ"><span>A.</span>　術後の抗生物質は化膿を防ぐために飲んでいただいていますが、飲まないと必ず化膿する訳ではありません。<br>
+                        できるだけ飲んでいただいてはいますが、薬疹など体に合わない場合は飲まないで様子をみていく場合もあります。</p>
+                    </div>
+                    <div class="FAQBox01">
+                        <p class="QBox">Q　未成年ですが、親に内緒で手術は可能でしょうか？</p>
+                        <p class="ABox fade-in_FAQ"><span>A.</span>　未成年（18歳未満）の方が手術・治療をお受けになられるには親権者の同意が必要になります。<br>
+                        理想的にはカウンセリング時にご同伴していただくのが良いのですが、お仕事のご都合等でどうしても無理な場合は同意書をご持参いただければ手術は可能です。<br>
+                        また、同意書に記載されている親権者の方に確認のお電話をさせていただくことがありますのであらかじめご了承ください。同意書は便せんやレポート用紙等に以下のように書いて、来院時にお持ちください。<br>
+                            ●タイトル：『親権者同意書』<br>
+                            ●本文：『私（親権者のお名前）は、（施術を受ける人の名前）が、アーティスクリニックにて（施術名）（例：二重手術）を受ける事に同意いたします。』<br>
+                            ●書いた日の日付：『西暦 年 月 日』<br>
+                            ●『親権者』<br>
+                            ●親権者の住所<br>
+                            ●親権者の氏名　印鑑（シャチハタ以外）<br>
+                            ●親権者の連絡先電話番号<br>
+                            ●『治療を受ける本人』<br>
+                            ●治療を受ける人の住所<br>
+                            ●治療を受ける人の氏名　印鑑（シャチハタ以外）<br>
+                            ●治療を受ける人の連絡先電話番号同意書は以下からダウンロードもできます。印刷していただき必要事項にご記入ご捺印してください</p>
+                    </div>
+                    <div class="FAQBox01">
+                        <p class="QBox">Q　カウンセリングを受けてそのまますぐ手術していただくことは可能ですか？</p>
+                        <p class="ABox fade-in_FAQ"><span>A.</span>　ご予約を取られるときに、まずはカウンセリングのみ・手術まで等々できるだけ詳しくご希望をお伝えください。ご希望の施術に沿ったご案内をさせていただきます。<br>
+                        ご予約時にお申し出いただければ、まずカウンセリングを受けていただいてその場で判断していただき、良ろしければそのまま手術を受けていただくことも可能です。<br>
+                        ただしカウンセリングのみでご予約を取られていた場合は、あらためて後日の手術日を予約していただくことになります。<br>
+                        比較的長時間になる施術や、施術前に血液検査が必要な施術の場合は、カウンセリング日と後日の手術日と分けてのご予約をしていただいております。</p>
+                    </div>
+                </div>
+            </section>
 
+
+        </div>
     </main>
 
     <footer>
-        <ul>
-            <li>aaaa</li>
-            <li>bbbb</li>
-            <li>cccc</li>
-        </ul>
-        <p><small>&copy;Tomoki KOSHIRO</small></p>
+        <p><small>&copy;Artis Clinic</small></p>
     </footer>
-    
-    <script src="js/script.js"></script>
 </body>
+<script src="js/script.js"></script>
+
 </html>

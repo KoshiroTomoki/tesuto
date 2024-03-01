@@ -10,44 +10,60 @@
 }
 
 .chargeTop {
-    padding: 5rem 0;
+    padding: 5rem 0 1rem;
 
-    .chargeToph2 {
-        background-color: white;
-        border-radius: 50%;
-        width: 15rem;
-        margin: 0 auto;
-        font-size: 1.5rem;
+    .chargeTopTitle {
+        position: relative;
+
+        .chargeToph2 {
+            background-color: white;
+            border-radius: 50%;
+            width: 15rem;
+            margin: 0 auto;
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .chargeTopImg {
+            position: absolute;
+            top: 0;
+            right: 18%;
+            transform: rotate(15deg);
+        }
+    }
+
+    .chargeTop02 {
         text-align: center;
-        padding: 2rem;
     }
 }
 
 .chargeList {
     margin: 0 0.5rem;
-    
+
     .chargeListTitle {
 
         .chargeListTitle01 {
             display: flex;
             justify-content: center;
+            font-size: 1.2rem;
 
             .yellow {
                 background-color: #ffcc00;
-                width: 8rem;
+                width: 10rem;
                 border-radius: 5px;
                 text-align: center;
-                padding: 0.5rem;
+                padding: 1rem 0.5rem;
                 color: white;
                 margin: 0.5rem;
             }
 
             .orange {
                 background-color: #ff9933;
-                width: 8rem;
+                width: 10rem;
                 border-radius: 5px;
                 text-align: center;
-                padding: 0.5rem;
+                padding: 1rem 0.5rem;
                 color: white;
                 margin: 0.5rem;
             }
@@ -59,21 +75,37 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin: 5rem 0 0;
+        margin: 3rem 0 0;
 
         .hiddenContent {
             display: none;
 
             .hiddenTitle {
-                color: white;
-                background-color: #adadad;
-                padding: 1.5rem;
-                border-radius: 5px;
-                outline: white solid 3px;
-                outline-offset: -6px;
-                text-align: center;
-                margin: 1rem auto;
-                font-size: 2rem;
+                position: relative;
+
+                h3 {
+                    color: rgb(255, 255, 255);
+                    background-color: #BCB5B5;
+                    padding: 1.5rem;
+                    border-radius: 5px;
+                    outline: rgb(255, 255, 255) solid 3px;
+                    outline-offset: -6px;
+                    text-align: center;
+                    margin: 1rem auto;
+                    font-size: 2rem;
+                }
+
+                p {
+                    max-width: 100px;
+                    position: absolute;
+                    top: -30%;
+                    left: 0;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
             }
 
             table {
@@ -100,6 +132,7 @@
                         border: solid 3px #ffffff;
                         color: #fff;
                         background-color: #BCB5B5;
+                        width: 9rem;
                     }
 
                     .color01 {
@@ -132,6 +165,25 @@
                 text-align: center;
                 width: 11rem;
                 margin: 3rem auto;
+            }
+        }
+    }
+
+    .chargeBottom {
+        padding: 2rem 0.5rem 2rem;
+        background-color: white;
+        p{
+            margin: 0 auto;
+            width: 90%;
+            text-align: center;
+        }
+
+        .chargeBottomImg {
+            display: flex;
+            justify-content: space-around;
+
+            img{
+                max-width: 100px;
             }
         }
     }

@@ -1,0 +1,68 @@
+#contactTop {
+    background-image: url(../images/background01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -100;
+    margin: 0 0.5rem;
+
+    .backgroundOpacity {
+        background: rgba(255, 255, 255, 0.4);
+        z-index: -100;
+    }
+}
+
+.FAQsection {
+    padding: 5rem 0 5rem;
+    text-align: center;
+
+    .FAQTitle {
+
+        .FAQH2 {
+            font-size: 1.5rem;
+            color: orange;
+            font-weight: bold;
+        }
+    }
+
+    .FAQBox{
+        margin: 5rem auto;
+
+        .FAQBox01{
+            margin: 3rem auto;
+            width: 95%;
+
+            .QBox{
+                background: orange;
+                cursor: pointer;
+                padding: 1rem;
+                color: white;
+                outline: solid 3px white;
+                outline-offset: -7px;
+                font-weight: bold;
+            }
+
+            .ABox{
+                background: rgb(255, 255, 255);
+                display: none;
+                padding: 1rem;
+                width: 94%;
+                text-align: left;
+
+                margin: 0 auto;
+                transform: translateY(-4px);
+
+                outline: solid 5px orange;
+                outline-offset: -5px;
+
+                span{
+                    color: orange;
+                    font-size: 2rem;
+                }
+            }
+
+            .FAQactive{
+                display: block;
+            }
+        }
+    }
+}
