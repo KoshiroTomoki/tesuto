@@ -1301,7 +1301,6 @@ header .headerBox .headerNav ul li:last-of-type {
 
 .chargeList {
   margin: 0 0.5rem;
-  cursor: pointer;
 }
 .chargeList .chargeListTitle .chargeListTitle01 {
   display: flex;
