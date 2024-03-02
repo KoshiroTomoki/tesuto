@@ -9,15 +9,19 @@
 @use "contact";
 @use "footer";
 
+@font-face {
+    font-family: "myfont";
+    src: url("../font/07Yasashisa/yasashisa.ttf.ttf") format("truetype");
+  }
+
 html {
     scroll-behavior: smooth;
-
-    @media (width <=768px) {}
 }
 
 body {
     line-height: 1.7rem;
-    background-color: #fff6ed;
+    color: rgb(82, 49, 0);
+    font-family: "myfont",sans-serif;
 }
 
 .fade-in {

@@ -24,10 +24,10 @@
             p {
                 position: absolute;
                 top: 60%;
-                left: 55%;
+                left: 59%;
                 transform: translate(-50%, -50%);
 
-                width: 6rem;
+                width: 7rem;
             }
 
             img {
@@ -71,7 +71,6 @@
             margin: 0 auto;
 
             font-size: 1.5rem;
-
             color: orange;
         }
 
@@ -101,19 +100,20 @@
 
                 .titleImgs03 {
                     position: absolute;
-                    top: 20%;
-                    left: -10%;
+                    top: 30%;
+                    left: 0%;
+                    transform: rotate(15deg);
                 }
 
                 .titleImgs04 {
                     position: absolute;
-                    top: 38%;
+                    top: 45%;
                     left: 30%;
                 }
 
                 .titleImgs05 {
                     position: absolute;
-                    top: 50%;
+                    top: 70%;
                     left: 5%;
                 }
             }
@@ -135,11 +135,24 @@
             max-width: 500px;
             margin: 5rem auto 0;
 
+            .click {
+                display: flex;
+                font-size: 1rem;
+                font-weight: bold;
+                color: rgb(82, 49, 0);
+
+                p:first-of-type {
+                    transform: rotate(125deg);
+
+                }
+            }
+
             h3 {
                 color: orange;
                 font-size: 1.5rem;
                 text-align: center;
                 padding: 0.5rem;
+                font-weight: bold;
             }
 
             p {
@@ -171,7 +184,7 @@
 
         .BigText01 {
 
-            padding: 2rem;
+            padding: 2rem 1rem 2rem 2rem;
             border-radius: 50%;
             font-size: 1.5rem;
             color: orange;
@@ -198,7 +211,6 @@
         width: 50%;
         margin: 0 auto;
 
-
         .LPmanga03Box02 {
             display: flex;
             justify-content: space-between;
@@ -207,6 +219,7 @@
             .LPmangaP01 {
                 margin-top: 3rem;
                 color: orange;
+                width: 10rem;
             }
 
             .LPmangaImgBox {

@@ -501,7 +501,6 @@
 
     .topAboutBox01 {
         margin-top: 5rem;
-        color: white;
         max-width: 1240px;
 
         .aboutFlexBox01,
@@ -533,12 +532,13 @@
             P {
                 padding: 1rem;
                 border-radius: 20px;
+                border: orange solid 3px;
 
                 display: flex;
                 justify-content: center;
                 align-items: center;
 
-                background-color: #ff9933;
+                background-color: #ffffff;
             }
         }
 
@@ -547,12 +547,13 @@
             p {
                 padding: 1rem;
                 border-radius: 20px;
+                border: yellow solid 3px;
 
                 display: flex;
                 justify-content: center;
                 align-items: center;
 
-                background-color: #ffcc00;
+                background-color: #ffffff;
             }
         }
     }
@@ -641,7 +642,6 @@
             transform: rotate(345deg);
 
             font-weight: bold;
-            color: black;
 
             p:first-of-type {
                 transform: rotate(125deg)
@@ -861,8 +861,6 @@
 
 
     .infoTitle {
-        background-color: #ffffff;
-        border: solid orange 3px;
         border-radius: 5px;
         padding: 1rem;
 
@@ -877,7 +875,7 @@
 
     .infoBox {
         background-color: #ffffff;
-        border: solid orange 3px;
+        border: solid orange 1px;
         border-radius: 5px;
 
         display: flex;

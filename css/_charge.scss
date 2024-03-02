@@ -11,6 +11,7 @@
 
 .chargeTop {
     padding: 5rem 0 1rem;
+    margin: 0 0.5rem;
 
     .chargeTopTitle {
         position: relative;
@@ -33,15 +34,107 @@
         }
     }
 
-    .chargeTop02 {
+    .chargeTopTextBox01 {
+        margin-top: 5rem;
+        max-width: 1240px;
+
+        .chargeFlexBox01,
+        .chargeFlexBox02 {
+            display: flex;
+            align-items: center;
+            margin: 0 auto 1rem;
+
+            @media (width <=768px) {
+                margin: 0 auto 3rem;
+            }
+
+            div {
+                max-width: 200px;
+                margin: 0 3rem;
+
+                @media (width <=768px) {
+                    margin: 0;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .chargeFlexBox01 {
+
+            P {
+                padding: 1rem;
+                border-radius: 20px;
+                border: orange solid 3px;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                background-color: #ffffff;
+            }
+        }
+
+        .chargeFlexBox02 {
+
+            p {
+                padding: 1rem;
+                border-radius: 20px;
+                border: yellow solid 3px;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                background-color: #ffffff;
+            }
+        }
+    }
+
+    .chargeTopImgBox {
         text-align: center;
     }
 }
 
-.chargeList {
+#chargeList {
     margin: 0 0.5rem;
 
-    .chargeListTitle {
+    .chargeListTitleBox {
+
+        .chargeTitle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: 1.5rem;
+            background: white;
+            border-radius: 50%;
+            margin: 5rem auto 3rem;
+            width: 8rem;
+            position: relative;
+
+
+            .click {
+                display: flex;
+                font-size: 1rem;
+                font-weight: bold;
+                color: rgb(82, 49, 0);
+                transform: rotate(330deg);
+                position: absolute;
+                top: -40%;
+                left: -20%;
+
+                p:first-of-type {
+                    transform: rotate(125deg);
+                }
+            }
+
+            .yajirusi {
+                text-align: center;
+            }
+        }
 
         .chargeListTitle01 {
             display: flex;
@@ -108,39 +201,45 @@
 
             }
 
-            table {
-                text-align: center;
-                border: solid 4px #ffffff;
-                background-color: white;
+            .tableDispley {
+                display: flex;
+                justify-content: center;
+                align-items: center;
 
-                tr {
-                    th {
-                        border: solid 3px #ffffff;
-                        padding: 0.5rem;
-                        text-align: center;
-                        background-color: #BCB5B5;
-                        color: #fff;
-                    }
+                table {
+                    text-align: center;
+                    border: solid 4px #ffffff;
+                    background-color: white;
 
-                    td {
-                        border: solid 1px #754c24;
-                        padding: 0.5rem;
-                    }
+                    tr {
+                        th {
+                            border: solid 3px #ffffff;
+                            padding: 0.5rem;
+                            text-align: center;
+                            background-color: #BCB5B5;
+                            color: #fff;
+                        }
 
-                    .tdTitle {
-                        font-weight: bold;
-                        border: solid 3px #ffffff;
-                        color: #fff;
-                        background-color: #BCB5B5;
-                        width: 9rem;
-                    }
+                        td {
+                            border: solid 1px #754c24;
+                            padding: 0.5rem;
+                        }
 
-                    .color01 {
-                        background-color: #BCB5B5;
-                    }
+                        .tdTitle {
+                            font-weight: bold;
+                            border: solid 3px #ffffff;
+                            color: #fff;
+                            background-color: #BCB5B5;
+                            width: 9rem;
+                        }
 
-                    .color02 {
-                        background-color: #BCB5B5;
+                        .color01 {
+                            background-color: #BCB5B5;
+                        }
+
+                        .color02 {
+                            background-color: #BCB5B5;
+                        }
                     }
                 }
             }
@@ -172,7 +271,8 @@
     .chargeBottom {
         padding: 2rem 0.5rem 2rem;
         background-color: white;
-        p{
+
+        p {
             margin: 0 auto;
             width: 90%;
             text-align: center;
@@ -182,7 +282,7 @@
             display: flex;
             justify-content: space-around;
 
-            img{
+            img {
                 max-width: 100px;
             }
         }

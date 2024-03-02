@@ -937,7 +937,6 @@ header .headerBox .headerNav ul li:last-of-type {
 }
 #index02 .topAboutBox01 {
   margin-top: 5rem;
-  color: white;
   max-width: 1240px;
 }
 #index02 .topAboutBox01 .aboutFlexBox01,
@@ -970,18 +969,20 @@ header .headerBox .headerNav ul li:last-of-type {
 #index02 .topAboutBox01 .aboutFlexBox01 P {
   padding: 1rem;
   border-radius: 20px;
+  border: orange solid 3px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ff9933;
+  background-color: #ffffff;
 }
 #index02 .topAboutBox01 .aboutFlexBox02 p {
   padding: 1rem;
   border-radius: 20px;
+  border: yellow solid 3px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffcc00;
+  background-color: #ffffff;
 }
 #index02 .topAboutBox02 {
   max-width: 1240px;
@@ -1057,7 +1058,6 @@ header .headerBox .headerNav ul li:last-of-type {
   left: 0%;
   transform: rotate(345deg);
   font-weight: bold;
-  color: black;
 }
 #index02 .topAboutBox02 .click p:first-of-type {
   transform: rotate(125deg);
@@ -1225,8 +1225,6 @@ header .headerBox .headerNav ul li:last-of-type {
   }
 }
 #index04 .infoTitle {
-  background-color: #ffffff;
-  border: solid orange 3px;
   border-radius: 5px;
   padding: 1rem;
   max-width: 1240px;
@@ -1237,7 +1235,7 @@ header .headerBox .headerNav ul li:last-of-type {
 }
 #index04 .infoBox {
   background-color: #ffffff;
-  border: solid orange 3px;
+  border: solid orange 1px;
   border-radius: 5px;
   display: flex;
   justify-content: space-around;
@@ -1288,6 +1286,7 @@ header .headerBox .headerNav ul li:last-of-type {
 
 .chargeTop {
   padding: 5rem 0 1rem;
+  margin: 0 0.5rem;
 }
 .chargeTop .chargeTopTitle {
   position: relative;
@@ -1307,19 +1306,96 @@ header .headerBox .headerNav ul li:last-of-type {
   right: 18%;
   transform: rotate(15deg);
 }
-.chargeTop .chargeTop02 {
+.chargeTop .chargeTopTextBox01 {
+  margin-top: 5rem;
+  max-width: 1240px;
+}
+.chargeTop .chargeTopTextBox01 .chargeFlexBox01,
+.chargeTop .chargeTopTextBox01 .chargeFlexBox02 {
+  display: flex;
+  align-items: center;
+  margin: 0 auto 1rem;
+}
+@media (width <= 768px) {
+  .chargeTop .chargeTopTextBox01 .chargeFlexBox01,
+  .chargeTop .chargeTopTextBox01 .chargeFlexBox02 {
+    margin: 0 auto 3rem;
+  }
+}
+.chargeTop .chargeTopTextBox01 .chargeFlexBox01 div,
+.chargeTop .chargeTopTextBox01 .chargeFlexBox02 div {
+  max-width: 200px;
+  margin: 0 3rem;
+}
+@media (width <= 768px) {
+  .chargeTop .chargeTopTextBox01 .chargeFlexBox01 div,
+  .chargeTop .chargeTopTextBox01 .chargeFlexBox02 div {
+    margin: 0;
+  }
+}
+.chargeTop .chargeTopTextBox01 .chargeFlexBox01 div img,
+.chargeTop .chargeTopTextBox01 .chargeFlexBox02 div img {
+  width: 100%;
+}
+.chargeTop .chargeTopTextBox01 .chargeFlexBox01 P {
+  padding: 1rem;
+  border-radius: 20px;
+  border: orange solid 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.chargeTop .chargeTopTextBox01 .chargeFlexBox02 p {
+  padding: 1rem;
+  border-radius: 20px;
+  border: yellow solid 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.chargeTop .chargeTopImgBox {
   text-align: center;
 }
 
-.chargeList {
+#chargeList {
   margin: 0 0.5rem;
 }
-.chargeList .chargeListTitle .chargeListTitle01 {
+#chargeList .chargeListTitleBox .chargeTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+  background: white;
+  border-radius: 50%;
+  margin: 5rem auto 3rem;
+  width: 8rem;
+  position: relative;
+}
+#chargeList .chargeListTitleBox .chargeTitle .click {
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(82, 49, 0);
+  transform: rotate(330deg);
+  position: absolute;
+  top: -40%;
+  left: -20%;
+}
+#chargeList .chargeListTitleBox .chargeTitle .click p:first-of-type {
+  transform: rotate(125deg);
+}
+#chargeList .chargeListTitleBox .chargeTitle .yajirusi {
+  text-align: center;
+}
+#chargeList .chargeListTitleBox .chargeListTitle01 {
   display: flex;
   justify-content: center;
   font-size: 1.2rem;
 }
-.chargeList .chargeListTitle .chargeListTitle01 .yellow {
+#chargeList .chargeListTitleBox .chargeListTitle01 .yellow {
   background-color: #ffcc00;
   width: 10rem;
   border-radius: 5px;
@@ -1328,7 +1404,7 @@ header .headerBox .headerNav ul li:last-of-type {
   color: white;
   margin: 0.5rem;
 }
-.chargeList .chargeListTitle .chargeListTitle01 .orange {
+#chargeList .chargeListTitleBox .chargeListTitle01 .orange {
   background-color: #ff9933;
   width: 10rem;
   border-radius: 5px;
@@ -1337,20 +1413,20 @@ header .headerBox .headerNav ul li:last-of-type {
   color: white;
   margin: 0.5rem;
 }
-.chargeList .chargeListTable {
+#chargeList .chargeListTable {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: 3rem 0 0;
 }
-.chargeList .chargeListTable .hiddenContent {
+#chargeList .chargeListTable .hiddenContent {
   display: none;
 }
-.chargeList .chargeListTable .hiddenContent .hiddenTitle {
+#chargeList .chargeListTable .hiddenContent .hiddenTitle {
   position: relative;
 }
-.chargeList .chargeListTable .hiddenContent .hiddenTitle h3 {
+#chargeList .chargeListTable .hiddenContent .hiddenTitle h3 {
   color: rgb(255, 255, 255);
   background-color: #BCB5B5;
   padding: 1.5rem;
@@ -1361,53 +1437,58 @@ header .headerBox .headerNav ul li:last-of-type {
   margin: 1rem auto;
   font-size: 2rem;
 }
-.chargeList .chargeListTable .hiddenContent .hiddenTitle p {
+#chargeList .chargeListTable .hiddenContent .hiddenTitle p {
   max-width: 100px;
   position: absolute;
   top: -30%;
   left: 0;
 }
-.chargeList .chargeListTable .hiddenContent .hiddenTitle p img {
+#chargeList .chargeListTable .hiddenContent .hiddenTitle p img {
   width: 100%;
 }
-.chargeList .chargeListTable .hiddenContent table {
+#chargeList .chargeListTable .hiddenContent .tableDispley {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#chargeList .chargeListTable .hiddenContent .tableDispley table {
   text-align: center;
   border: solid 4px #ffffff;
   background-color: white;
 }
-.chargeList .chargeListTable .hiddenContent table tr th {
+#chargeList .chargeListTable .hiddenContent .tableDispley table tr th {
   border: solid 3px #ffffff;
   padding: 0.5rem;
   text-align: center;
   background-color: #BCB5B5;
   color: #fff;
 }
-.chargeList .chargeListTable .hiddenContent table tr td {
+#chargeList .chargeListTable .hiddenContent .tableDispley table tr td {
   border: solid 1px #754c24;
   padding: 0.5rem;
 }
-.chargeList .chargeListTable .hiddenContent table tr .tdTitle {
+#chargeList .chargeListTable .hiddenContent .tableDispley table tr .tdTitle {
   font-weight: bold;
   border: solid 3px #ffffff;
   color: #fff;
   background-color: #BCB5B5;
   width: 9rem;
 }
-.chargeList .chargeListTable .hiddenContent table tr .color01 {
+#chargeList .chargeListTable .hiddenContent .tableDispley table tr .color01 {
   background-color: #BCB5B5;
 }
-.chargeList .chargeListTable .hiddenContent table tr .color02 {
+#chargeList .chargeListTable .hiddenContent .tableDispley table tr .color02 {
   background-color: #BCB5B5;
 }
-.chargeList .chargeListTable .hiddenContent.active {
+#chargeList .chargeListTable .hiddenContent.active {
   display: block;
 }
-.chargeList .chargeListTable .hiddenText {
+#chargeList .chargeListTable .hiddenText {
   max-width: 380px;
   margin: 3rem 0rem;
   text-align: center;
 }
-.chargeList .chargeListTable .hiddenText .hiddenTextButton {
+#chargeList .chargeListTable .hiddenText .hiddenTextButton {
   background-color: #ff9933;
   color: white;
   padding: 1rem;
@@ -1418,20 +1499,20 @@ header .headerBox .headerNav ul li:last-of-type {
   width: 11rem;
   margin: 3rem auto;
 }
-.chargeList .chargeBottom {
+#chargeList .chargeBottom {
   padding: 2rem 0.5rem 2rem;
   background-color: white;
 }
-.chargeList .chargeBottom p {
+#chargeList .chargeBottom p {
   margin: 0 auto;
   width: 90%;
   text-align: center;
 }
-.chargeList .chargeBottom .chargeBottomImg {
+#chargeList .chargeBottom .chargeBottomImg {
   display: flex;
   justify-content: space-around;
 }
-.chargeList .chargeBottom .chargeBottomImg img {
+#chargeList .chargeBottom .chargeBottomImg img {
   max-width: 100px;
 }
 
@@ -1458,9 +1539,9 @@ header .headerBox .headerNav ul li:last-of-type {
 .LPmanga01 .hukidashiBox .hukidashi01 p {
   position: absolute;
   top: 60%;
-  left: 55%;
+  left: 59%;
   transform: translate(-50%, -50%);
-  width: 6rem;
+  width: 7rem;
 }
 .LPmanga01 .hukidashiBox .hukidashi01 img {
   width: 100%;
@@ -1519,17 +1600,18 @@ header .headerBox .headerNav ul li:last-of-type {
 }
 .LPmanga01 .LPmanga01TitleBox .LPmangaTitleImgBox .titleImgs .titleImgs03 {
   position: absolute;
-  top: 20%;
-  left: -10%;
+  top: 30%;
+  left: 0%;
+  transform: rotate(15deg);
 }
 .LPmanga01 .LPmanga01TitleBox .LPmangaTitleImgBox .titleImgs .titleImgs04 {
   position: absolute;
-  top: 38%;
+  top: 45%;
   left: 30%;
 }
 .LPmanga01 .LPmanga01TitleBox .LPmangaTitleImgBox .titleImgs .titleImgs05 {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 5%;
 }
 .LPmanga01 .LPmanga01TitleBox .LPmangaTitleImgBox .titleImgPeople {
@@ -1546,11 +1628,21 @@ header .headerBox .headerNav ul li:last-of-type {
   max-width: 500px;
   margin: 5rem auto 0;
 }
+.LPmanga02 .mangaBox .manga .click {
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(82, 49, 0);
+}
+.LPmanga02 .mangaBox .manga .click p:first-of-type {
+  transform: rotate(125deg);
+}
 .LPmanga02 .mangaBox .manga h3 {
   color: orange;
   font-size: 1.5rem;
   text-align: center;
   padding: 0.5rem;
+  font-weight: bold;
 }
 .LPmanga02 .mangaBox .manga p img:hover {
   box-shadow: 0 0 0 0 white;
@@ -1573,7 +1665,7 @@ header .headerBox .headerNav ul li:last-of-type {
   margin: 0 auto;
 }
 .LPmanga03 .LPmanga03BigText .BigText01 {
-  padding: 2rem;
+  padding: 2rem 1rem 2rem 2rem;
   border-radius: 50%;
   font-size: 1.5rem;
   color: orange;
@@ -1603,6 +1695,7 @@ header .headerBox .headerNav ul li:last-of-type {
 .LPmanga03 .LPmanga03Box .LPmanga03Box02 .LPmangaP01 {
   margin-top: 3rem;
   color: orange;
+  width: 10rem;
 }
 .LPmanga03 .LPmanga03Box .LPmanga03Box02 .LPmangaImgBox {
   position: relative;
@@ -1681,12 +1774,18 @@ footer p {
   text-align: center;
 }
 
+@font-face {
+  font-family: "myfont";
+  src: url("../font/07Yasashisa/yasashisa.ttf.ttf") format("truetype");
+}
 html {
   scroll-behavior: smooth;
 }
+
 body {
   line-height: 1.7rem;
-  background-color: #fff6ed;
+  color: rgb(82, 49, 0);
+  font-family: "myfont", sans-serif;
 }
 
 .fade-in {
