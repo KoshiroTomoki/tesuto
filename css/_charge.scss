@@ -168,7 +168,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin: 3rem 0 0;
+        margin: 3rem 0 5rem;
 
         .hiddenContent {
             display: none;
@@ -272,6 +272,7 @@
         padding: 2rem 0.5rem 2rem;
         background-color: white;
 
+
         p {
             margin: 0 auto;
             width: 90%;
@@ -285,6 +286,13 @@
             img {
                 max-width: 100px;
             }
+        }
+
+        .contactBotton{
+            border: orange 3px solid;
+            width: 15rem;
+            padding: 0.5rem;
+            margin: 3rem auto 0;
         }
     }
 }

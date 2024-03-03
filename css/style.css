@@ -1418,7 +1418,7 @@ header .headerBox .headerNav ul li:last-of-type {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 3rem 0 0;
+  margin: 3rem 0 5rem;
 }
 #chargeList .chargeListTable .hiddenContent {
   display: none;
@@ -1514,6 +1514,12 @@ header .headerBox .headerNav ul li:last-of-type {
 }
 #chargeList .chargeBottom .chargeBottomImg img {
   max-width: 100px;
+}
+#chargeList .chargeBottom .contactBotton {
+  border: orange 3px solid;
+  width: 15rem;
+  padding: 0.5rem;
+  margin: 3rem auto 0;
 }
 
 #LPmangaTop {
@@ -1765,6 +1771,29 @@ header .headerBox .headerNav ul li:last-of-type {
 }
 .FAQsection .FAQBox .FAQBox01 .FAQactive {
   display: block;
+}
+
+.chargeBottom {
+  padding: 2rem 0.5rem 2rem;
+  background-color: white;
+}
+.chargeBottom p {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+.chargeBottom .chargeBottomImg {
+  display: flex;
+  justify-content: space-around;
+}
+.chargeBottom .chargeBottomImg img {
+  max-width: 100px;
+}
+.chargeBottom .contactBotton {
+  border: orange 3px solid;
+  width: 15rem;
+  padding: 0.5rem;
+  margin: 3rem auto 0;
 }
 
 footer {
