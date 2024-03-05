@@ -30,7 +30,11 @@
         position: relative;
 
         .topMainTitle {
-            font-size: 3rem;
+            max-width: 400px;
+
+            img {
+                width: 100%;
+            }
 
             @media (width <=500px) {
                 font-size: 2rem;
@@ -569,17 +573,17 @@
 
         .topAbouth2 {
             font-size: 2rem;
-            margin: 1rem 0 3rem;
+            margin: 1rem 0 0rem;
             padding: 3rem;
             line-height: 1.7;
             text-align: center;
-            color: orange;
+
             background: rgba(255, 255, 255, 0.4);
-            border: solid 2px #ffcc00;
+
             border-radius: 50%;
 
             @media (width <=768px) {
-                font-size: 1.2rem;
+                font-size: 1.3rem;
                 padding: 2rem;
                 margin: 3rem 0 3rem;
             }
@@ -613,46 +617,55 @@
 
         .linkImgBox {
             position: relative;
-            margin: 3rem 1rem 0;
+            margin: 0rem 1rem 3rem;
+
+            h3 {
+                position: absolute;
+                top: 25%;
+                left: 10%;
+
+                width: 80%;
+                text-align: center;
+                color: orange;
+                background-color: rgba(255, 255, 255, 0.8);
+                font-size: 1.5rem;
+                margin: 0 0 1rem;
+                padding: 0.5rem;
+            }
 
             .linkImg {
                 max-width: 500px;
 
-                a {
-                    box-shadow: 0px 0px 10px orange;
-                    transition: 0.5s;
-
-                    img {
-                        width: 100%;
-                    }
-                }
-
-                a:hover {
-                    box-shadow: 0px 0px 0px orange;
+                img {
+                    width: 100%;
                 }
             }
         }
+    }
 
-        .click {
+    .click {
+        position: absolute;
+        top: -20%;
+        left: 0%;
+
+
+        font-weight: bold;
+
+        p:first-of-type {
+            transform: rotate(125deg)
+        }
+
+        .rotate {
             display: flex;
-
-            position: absolute;
-            top: -30%;
-            left: 0%;
             transform: rotate(345deg);
-
-            font-weight: bold;
-
-            p:first-of-type {
-                transform: rotate(125deg)
-            }
         }
     }
 }
 
+
 #index03 {
     max-width: 1240px;
-    margin: 0 auto;
+    margin: 5rem auto;
     position: relative;
     z-index: 10;
 
@@ -820,7 +833,7 @@
         font-size: 2rem;
 
         .SNSBoxTitle {
-            margin: 5rem 0 0;
+            margin: 5rem 0 3rem;
             color: orange;
         }
 
@@ -836,19 +849,17 @@
         }
 
         .SNSBox01 {
-            width: 320px;
-            height: 320px;
-            border: 1px solid black;
-            margin-top: 3rem;
-            background-color: white;
+            width: 300px;
+            margin: 0 0.5rem 0;
+        }
 
-            // @media (width <=768px) {
-            //     width: 320px;
-            //     height: 300px;
-            // }
+        .SNSBox02 {
+            margin: 3rem 0 0;
+            border: solid 5px black;
         }
     }
 }
+
 
 #index04 {
 
